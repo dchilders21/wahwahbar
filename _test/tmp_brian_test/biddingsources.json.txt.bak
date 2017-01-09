@@ -1,0 +1,1038 @@
+{
+  "line_items": [
+  {
+      "id": "ignorethisbiddablehtml",
+      "ads": [
+        "aaaa"
+      ],
+      "ad_map": {
+        "aaaa": {
+          "creative": {
+            "id": null,
+            "creative_type": "HTML",
+            "tag_contents": ""
+          },
+          "id": null,
+          "creative_id": "bbbbbbbb",
+          "weight": null
+        }
+      },
+      "weighting_mode": "EQUAL",
+      "delivery_mode": null,
+	  "fill_rate": 0.30,
+      "nominal_cpm": 0,
+      "actual_rcpm": 0,
+      "actual_ecpm": 0,
+	  "biddable": true,
+	  "bid_url":null,
+	  "guaranteed": false,
+	  "priority": 1
+    },
+	    {
+      "id": "wrapperTest",
+      "ads": [
+        "9890149f-ae38-427b-8f38-9a861fb790f6"
+      ],
+      "ad_map": {
+        "9890149f-ae38-427b-8f38-9a861fb790f6": {
+          "creative": {
+            "id": null,
+            "creative_type": "VAST_XML",
+            "tag_contents": "http://test.wahwahnetworks.com/brian/tb4/vast_wrapper_test.xml"
+          },
+          "id": null,
+          "creative_id": "9377b198-448c-4caa-9a31-41eca4d94cb9",
+          "weight": null
+        }
+      },
+      "weighting_mode": "EQUAL",
+      "delivery_mode": "LINEAR_VIDEO",
+      "nominal_cpm": 0,
+      "actual_rcpm": 0,
+      "actual_ecpm": 0,
+	  "biddable": true,
+	  "bid_url":null,
+	  "guaranteed": false,
+	  "priority": 5
+    },
+    {
+      "id": "cfb190c8-2e57-42d2-b551-231c9c12c67e",
+      "ads": [
+        "c2a47b04-61e7-4d5f-9da2-94190f52caa1"
+      ],
+      "ad_map": {
+        "c2a47b04-61e7-4d5f-9da2-94190f52caa1": {
+          "creative": {
+            "id": null,
+            "creative_type": "VAST_XML",
+            "tag_contents": "http://search.spotxchange.com/vast/2.00/138633?VPAID=1&content_page_url=[LR_URL]&cb=[TIMESTAMP]&player_width=544&player_height=306&MIDROLL"
+          },
+          "id": null,
+          "creative_id": "1a959135-ff32-43a4-a99b-01804b08455d",
+          "weight": null
+        }
+      },
+      "weighting_mode": "EQUAL",
+      "delivery_mode": null,
+	  "fill_rate": 0.30,
+      "nominal_cpm": 0,
+      "actual_rcpm": 0,
+      "actual_ecpm": 0,
+	  "biddable": true,
+	  "bid_url":null,
+	  "guaranteed": false,
+	  "priority": 2
+    },
+    {
+      "id": "0b13a3f7-08d0-47a2-a6bd-fa0ba20ad581",
+      "ads": [
+        "b7eecafe-ba0e-426e-8987-8945b074df70"
+      ],
+      "ad_map": {
+        "b7eecafe-ba0e-426e-8987-8945b074df70": {
+          "creative": {
+            "id": null,
+            "creative_type": "HTML",
+            "tag_contents": "<script src=\"https://myspace.com/play/myspace/mix/entertainment-710630/videos/js?frameless=1&volume=0&locationId=240631&refresh=30\"></script>\n\n<script>\nif (typeof customCreative == 'function') { \n  customCreative('myspace',444,340);\n}\n</script>\n<noscript class=\"MOAT-wahwahnetworksopenx832423706192?moatClientLevel1={advertiser.id}&amp;moatClientLevel2={order.id}&amp;moatClientLevel3={line.id}&amp;moatClientLevel4={ad.id}&amp;moatClientSlicer1={publisher.id}&amp;moatClientSlicer2={adunit.id}\"></noscript>\n<script src=\"http://js.moatads.com/wahwahnetworksopenx832423706192/moatad.js#moatClientLevel1={advertiser.id}&moatClientLevel2={order.id}&moatClientLevel3={line.id}&moatClientLevel4={ad.id}&moatClientSlicer1={publisher.id}&moatClientSlicer2={adunit.id}\" type=\"text/javascript\"></script>"
+          },
+          "id": null,
+          "creative_id": "669700ff-32f5-4ebe-bc67-44ce16c08845",
+          "weight": null
+        }
+      },
+      "weighting_mode": "EQUAL",
+      "delivery_mode": "WEB",
+	  "fill_rate": 0.30,
+      "nominal_cpm": 100000,
+      "actual_rcpm": 500,
+      "actual_ecpm": 500,
+	  "biddable": false,
+	  "bid_url":null,
+	  "guaranteed": false,
+	  "priority": 1
+    },
+    {
+      "id": "43cd2e69-8c36-4b51-befc-9c2483d97470",
+      "ads": [
+        "74df7cf6-35fe-47f5-a930-0334d49a2bca"
+      ],
+      "ad_map": {
+        "74df7cf6-35fe-47f5-a930-0334d49a2bca": {
+          "creative": {
+            "id": null,
+            "creative_type": "HTML",
+            "tag_contents": "<script src=\"https://myspace.com/play/myspace/mix/entertainment-710630/videos/js?frameless=1&volume=0&locationId=240631&refresh=30\"></script>\n\n<script>\nif (typeof customCreative == 'function') { \n  customCreative('myspace',444,340);\n}\n</script>\n<noscript class=\"MOAT-wahwahnetworksopenx832423706192?moatClientLevel1={advertiser.id}&amp;moatClientLevel2={order.id}&amp;moatClientLevel3={line.id}&amp;moatClientLevel4={ad.id}&amp;moatClientSlicer1={publisher.id}&amp;moatClientSlicer2={adunit.id}\"></noscript>\n<script src=\"http://js.moatads.com/wahwahnetworksopenx832423706192/moatad.js#moatClientLevel1={advertiser.id}&moatClientLevel2={order.id}&moatClientLevel3={line.id}&moatClientLevel4={ad.id}&moatClientSlicer1={publisher.id}&moatClientSlicer2={adunit.id}\" type=\"text/javascript\"></script>"
+          },
+          "id": null,
+          "creative_id": "669700ff-32f5-4ebe-bc67-44ce16c08845",
+          "weight": null
+        }
+      },
+      "weighting_mode": "EQUAL",
+      "delivery_mode": "WEB",
+	  "fill_rate": 0.30,
+      "nominal_cpm": 4,
+      "actual_rcpm": 2,
+      "actual_ecpm": 3,
+	  "biddable": false,
+	  "bid_url":null,
+	  "guaranteed": true,
+	  "priority": 3
+    },
+    {
+      "id": "fc0a24b8-7b72-405c-8710-8de11a671323",
+      "ads": [
+        "fbf1f9ac-0b49-4ecc-9910-6fa417c80a83"
+      ],
+      "ad_map": {
+        "fbf1f9ac-0b49-4ecc-9910-6fa417c80a83": {
+          "creative": {
+            "id": null,
+            "creative_type": "HTML",
+            "tag_contents": "<script type=\"text/javascript\">\n\tfunction myspaceminiplayer()\n\t{\n\t\tvar mmpi = document.getElementById('myspace-player');\n\t\tvar mmpis = document.getElementById('myspace-script');\n\t\tif (mmpi)\n\t\t{\n\t\t\ttry { mmpi.parentNode.removeChild(mmpi); } catch (e) {}\n\t\t}\n\t\tif (mmpis)\n\t\t{\n\t\t\ttry { mmpis.parentNode.removeChild(mmpis); } catch (e) {}\n\t\t}\n\n\t\tvar js = document.createElement('script');\n\t\tjs.setAttribute('id', 'myspace-script');\n\t\tjs.setAttribute('src', 'http://media.myspace.com/play/cbarnett/mix/featured-videos-709312/videos/js?&locationId=399302&volume=0.001&width=448&height=252&cb=' + Math.floor((Math.random() * 10000000)));\n\t\ttry { document.documentElement.appendChild(js); } catch(e){}\n\t}\n\n\tmyspaceminiplayer();\n\tsetInterval(myspaceminiplayer, 120000);\n</script>\n\n<div style=\"style=\"position: absolute; left: 0px; height: 0px; width: 1px; height: 1px; visibility: hidden\" id=\"wahwahmyspacecampaign\"></div>\n\n<script>\nif (typeof customCreative == 'function') { \n  customCreative('myspace');\n}\n</script>\n<noscript class=\"MOAT-wahwahnetworksopenx832423706192?moatClientLevel1={advertiser.id}&amp;moatClientLevel2={order.id}&amp;moatClientLevel3={line.id}&amp;moatClientLevel4={ad.id}&amp;moatClientSlicer1={publisher.id}&amp;moatClientSlicer2={adunit.id}\"></noscript>\n<script src=\"http://js.moatads.com/wahwahnetworksopenx832423706192/moatad.js#moatClientLevel1={advertiser.id}&moatClientLevel2={order.id}&moatClientLevel3={line.id}&moatClientLevel4={ad.id}&moatClientSlicer1={publisher.id}&moatClientSlicer2={adunit.id}\" type=\"text/javascript\"></script>"
+          },
+          "id": null,
+          "creative_id": "878f5c9f-46db-410d-b8c6-5ac0300a69e1",
+          "weight": null
+        }
+      },
+      "weighting_mode": "EQUAL",
+      "delivery_mode": "WEB",
+	  "fill_rate": 0.30,
+      "nominal_cpm": 4,
+      "actual_rcpm": 2,
+      "actual_ecpm": 3,
+	  "biddable": false,
+	  "bid_url":null,
+	  "guaranteed": false,
+	  "priority": 3
+    },
+    {
+      "id": "cea6bfa8-87a0-4d16-bf29-a59adb5cb862",
+      "ads": [
+        "23baea9f-0440-4c43-b995-11a75e02d96c"
+      ],
+      "ad_map": {
+        "23baea9f-0440-4c43-b995-11a75e02d96c": {
+          "creative": {
+            "id": null,
+            "creative_type": "HTML",
+            "tag_contents": "<script type=\"text/javascript\">\n\tfunction myspaceminiplayer()\n\t{\n\t\tvar mmpi = document.getElementById('myspace-player');\n\t\tvar mmpis = document.getElementById('myspace-script');\n\t\tif (mmpi)\n\t\t{\n\t\t\ttry { mmpi.parentNode.removeChild(mmpi); } catch (e) {}\n\t\t}\n\t\tif (mmpis)\n\t\t{\n\t\t\ttry { mmpis.parentNode.removeChild(mmpis); } catch (e) {}\n\t\t}\n\n\t\tvar js = document.createElement('script');\n\t\tjs.setAttribute('id', 'myspace-script');\n\t\tjs.setAttribute('src', 'http://media.myspace.com/play/myspace/mix/featured-videos-197605/videos/js?v=1&locationId=240631&volume=0&width=448&height=252&cb=' + Math.floor((Math.random() * 10000000)));\n\t\ttry { document.documentElement.appendChild(js); } catch(e){}\n\t}\n\n\tmyspaceminiplayer();\n\tsetInterval(myspaceminiplayer, 120000);\n</script>\n\n<div style=\"style=\"position: absolute; left: 0px; height: 0px; width: 1px; height: 1px; visibility: hidden\" id=\"wahwahmyspacecampaign\"></div>\n\n<script>\nif (typeof customCreative == 'function') { \n  customCreative('myspace');\n}\n</script>\n<noscript class=\"MOAT-wahwahnetworksopenx832423706192?moatClientLevel1={advertiser.id}&amp;moatClientLevel2={order.id}&amp;moatClientLevel3={line.id}&amp;moatClientLevel4={ad.id}&amp;moatClientSlicer1={publisher.id}&amp;moatClientSlicer2={adunit.id}\"></noscript>\n<script src=\"http://js.moatads.com/wahwahnetworksopenx832423706192/moatad.js#moatClientLevel1={advertiser.id}&moatClientLevel2={order.id}&moatClientLevel3={line.id}&moatClientLevel4={ad.id}&moatClientSlicer1={publisher.id}&moatClientSlicer2={adunit.id}\" type=\"text/javascript\"></script>"
+          },
+          "id": null,
+          "creative_id": "aedf15a4-fa53-4198-8822-d9ac4a57c779",
+          "weight": null
+        }
+      },
+      "weighting_mode": "EQUAL",
+      "delivery_mode": "WEB",
+	  "fill_rate": 0.30,
+      "nominal_cpm": 4,
+      "actual_rcpm": 2,
+      "actual_ecpm": 3,
+	  "biddable": false,
+	  "bid_url":null,
+	  "guaranteed": false,
+	  "priority": 3
+    },
+    {
+      "id": "16810f92-2b20-4971-b91f-ea3483efb34f",
+      "ads": [
+        "a5ebb2c2-c3c7-420f-b33d-efebcb5e6180"
+      ],
+      "ad_map": {
+        "a5ebb2c2-c3c7-420f-b33d-efebcb5e6180": {
+          "creative": {
+            "id": null,
+            "creative_type": "HTML",
+            "tag_contents": "<script src=\"https://myspace.com/play/myspace/mix/entertainment-710630/videos/js?frameless=1&volume=0&locationId=240631&refresh=30\"></script>\n\n<script>\nif (typeof customCreative == 'function') { \n  customCreative('myspace',444,340);\n}\n</script>\n<noscript class=\"MOAT-wahwahnetworksopenx832423706192?moatClientLevel1={advertiser.id}&amp;moatClientLevel2={order.id}&amp;moatClientLevel3={line.id}&amp;moatClientLevel4={ad.id}&amp;moatClientSlicer1={publisher.id}&amp;moatClientSlicer2={adunit.id}\"></noscript>\n<script src=\"http://js.moatads.com/wahwahnetworksopenx832423706192/moatad.js#moatClientLevel1={advertiser.id}&moatClientLevel2={order.id}&moatClientLevel3={line.id}&moatClientLevel4={ad.id}&moatClientSlicer1={publisher.id}&moatClientSlicer2={adunit.id}\" type=\"text/javascript\"></script>"
+          },
+          "id": null,
+          "creative_id": "669700ff-32f5-4ebe-bc67-44ce16c08845",
+          "weight": null
+        }
+      },
+      "weighting_mode": "EQUAL",
+      "delivery_mode": "WEB",
+	  "fill_rate": 0.30,
+      "nominal_cpm": 4,
+      "actual_rcpm": 2,
+      "actual_ecpm": 3,
+	  "biddable": false,
+	  "bid_url":null,
+	  "guaranteed": false,
+	  "priority": 3
+    },
+    {
+      "id": "e30acf27-2b3e-4bba-8279-23762f9225d2",
+      "ads": [
+        "fd91e0e7-988e-4654-bd08-acb9601f945f"
+      ],
+      "ad_map": {
+        "fd91e0e7-988e-4654-bd08-acb9601f945f": {
+          "creative": {
+            "id": null,
+            "creative_type": "HTML",
+            "tag_contents": "<script type=\"text/javascript\">\n\tfunction myspaceminiplayer()\n\t{\n\t\tvar mmpi = document.getElementById('myspace-player');\n\t\tvar mmpis = document.getElementById('myspace-script');\n\t\tif (mmpi)\n\t\t{\n\t\t\ttry { mmpi.parentNode.removeChild(mmpi); } catch (e) {}\n\t\t}\n\t\tif (mmpis)\n\t\t{\n\t\t\ttry { mmpis.parentNode.removeChild(mmpis); } catch (e) {}\n\t\t}\n\n\t\tvar js = document.createElement('script');\n\t\tjs.setAttribute('id', 'myspace-script');\n\t\tjs.setAttribute('src', 'http://media.myspace.com/play/cbarnett/mix/featured-videos-709312/videos/js?&locationId=240631&volume=0.001&width=448&height=252&cb=' + Math.floor((Math.random() * 10000000)));\n\t\ttry { document.documentElement.appendChild(js); } catch(e){}\n\t}\n\n\tmyspaceminiplayer();\n\tsetInterval(myspaceminiplayer, 120000);\n</script>\n\n<div style=\"style=\"position: absolute; left: 0px; height: 0px; width: 1px; height: 1px; visibility: hidden\" id=\"wahwahmyspacecampaign\"></div>\n\n<script>\nif (typeof customCreative == 'function') { \n  customCreative('myspace');\n}\n</script>\n<noscript class=\"MOAT-wahwahnetworksopenx832423706192?moatClientLevel1={advertiser.id}&amp;moatClientLevel2={order.id}&amp;moatClientLevel3={line.id}&amp;moatClientLevel4={ad.id}&amp;moatClientSlicer1={publisher.id}&amp;moatClientSlicer2={adunit.id}\"></noscript>\n<script src=\"http://js.moatads.com/wahwahnetworksopenx832423706192/moatad.js#moatClientLevel1={advertiser.id}&moatClientLevel2={order.id}&moatClientLevel3={line.id}&moatClientLevel4={ad.id}&moatClientSlicer1={publisher.id}&moatClientSlicer2={adunit.id}\" type=\"text/javascript\"></script>"
+          },
+          "id": null,
+          "creative_id": "95567c1a-d527-4957-86fc-d535cbb5ecfb",
+          "weight": null
+        }
+      },
+      "weighting_mode": "EQUAL",
+      "delivery_mode": "WEB",
+	  "fill_rate": 0.30,
+      "nominal_cpm": 4,
+      "actual_rcpm": 2,
+      "actual_ecpm": 3,
+	  "biddable": false,
+	  "bid_url":null,
+	  "guaranteed": false,
+	  "priority": 3
+    },
+    {
+      "id": "1b1a714a-f1cf-4a50-8d15-71c71faa4d5a",
+      "ads": [
+        "5e30754f-dac9-4ff1-a08b-fe7054e48db5"
+      ],
+      "ad_map": {
+        "5e30754f-dac9-4ff1-a08b-fe7054e48db5": {
+          "creative": {
+            "id": null,
+            "creative_type": "HTML",
+            "tag_contents": "<script type=\"text/javascript\">\n\tfunction myspaceminiplayer()\n\t{\n\t\tvar mmpi = document.getElementById('myspace-player');\n\t\tvar mmpis = document.getElementById('myspace-script');\n\t\tif (mmpi)\n\t\t{\n\t\t\ttry { mmpi.parentNode.removeChild(mmpi); } catch (e) {}\n\t\t}\n\t\tif (mmpis)\n\t\t{\n\t\t\ttry { mmpis.parentNode.removeChild(mmpis); } catch (e) {}\n\t\t}\n\n\t\tvar js = document.createElement('script');\n\t\tjs.setAttribute('id', 'myspace-script');\n\t\tjs.setAttribute('src', 'http://media.myspace.com/play/myspace/mix/featured-videos-197605/videos/js?v=1&locationId=240631&volume=0&width=448&height=252&cb=' + Math.floor((Math.random() * 10000000)));\n\t\ttry { document.documentElement.appendChild(js); } catch(e){}\n\t}\n\n\tmyspaceminiplayer();\n\tsetInterval(myspaceminiplayer, 120000);\n</script>\n\n<div style=\"style=\"position: absolute; left: 0px; height: 0px; width: 1px; height: 1px; visibility: hidden\" id=\"wahwahmyspacecampaign\"></div>\n\n<script>\nif (typeof customCreative == 'function') { \n  customCreative('myspace');\n}\n</script>\n<noscript class=\"MOAT-wahwahnetworksopenx832423706192?moatClientLevel1={advertiser.id}&amp;moatClientLevel2={order.id}&amp;moatClientLevel3={line.id}&amp;moatClientLevel4={ad.id}&amp;moatClientSlicer1={publisher.id}&amp;moatClientSlicer2={adunit.id}\"></noscript>\n<script src=\"http://js.moatads.com/wahwahnetworksopenx832423706192/moatad.js#moatClientLevel1={advertiser.id}&moatClientLevel2={order.id}&moatClientLevel3={line.id}&moatClientLevel4={ad.id}&moatClientSlicer1={publisher.id}&moatClientSlicer2={adunit.id}\" type=\"text/javascript\"></script>"
+          },
+          "id": null,
+          "creative_id": "aedf15a4-fa53-4198-8822-d9ac4a57c779",
+          "weight": null
+        }
+      },
+      "weighting_mode": "EQUAL",
+      "delivery_mode": "WEB",
+	  "fill_rate": 0.30,
+      "nominal_cpm": 4,
+      "actual_rcpm": 2,
+      "actual_ecpm": 3,
+	  "biddable": false,
+	  "bid_url":null,
+	  "guaranteed": false,
+	  "priority": 3
+    },
+    {
+      "id": "37b42116-3aa7-4b5c-b250-5f01a184d199",
+      "ads": [
+        "36944935-9748-4530-b756-4827acc539bf"
+      ],
+      "ad_map": {
+        "36944935-9748-4530-b756-4827acc539bf": {
+          "creative": {
+            "id": null,
+            "creative_type": "HTML",
+            "tag_contents": "<script src=\"https://myspace.com/play/myspace/mix/entertainment-710630/videos/js?frameless=1&volume=0&locationId=240631&refresh=30\"></script>\n\n<script>\nif (typeof customCreative == 'function') { \n  customCreative('myspace',444,340);\n}\n</script>\n<noscript class=\"MOAT-wahwahnetworksopenx832423706192?moatClientLevel1={advertiser.id}&amp;moatClientLevel2={order.id}&amp;moatClientLevel3={line.id}&amp;moatClientLevel4={ad.id}&amp;moatClientSlicer1={publisher.id}&amp;moatClientSlicer2={adunit.id}\"></noscript>\n<script src=\"http://js.moatads.com/wahwahnetworksopenx832423706192/moatad.js#moatClientLevel1={advertiser.id}&moatClientLevel2={order.id}&moatClientLevel3={line.id}&moatClientLevel4={ad.id}&moatClientSlicer1={publisher.id}&moatClientSlicer2={adunit.id}\" type=\"text/javascript\"></script>"
+          },
+          "id": null,
+          "creative_id": "669700ff-32f5-4ebe-bc67-44ce16c08845",
+          "weight": null
+        }
+      },
+      "weighting_mode": "EQUAL",
+      "delivery_mode": "WEB",
+	  "fill_rate": 0.30,
+      "nominal_cpm": 4,
+      "actual_rcpm": 2,
+      "actual_ecpm": 3,
+	  "biddable": false,
+	  "bid_url":null,
+	  "guaranteed": false,
+	  "priority": 3
+    },
+    {
+      "id": "a927732f-0cfa-483c-9974-5792665d21e2",
+      "ads": [
+        "a4bcba21-2fb0-4413-8afa-97e3ecea7257"
+      ],
+      "ad_map": {
+        "a4bcba21-2fb0-4413-8afa-97e3ecea7257": {
+          "creative": {
+            "id": null,
+            "creative_type": "HTML",
+            "tag_contents": "<script src=\"https://myspace.com/play/myspace/mix/entertainment-710630/videos/js?frameless=1&volume=0&locationId=240631&refresh=30\"></script>\n\n<script>\nif (typeof customCreative == 'function') { \n  customCreative('myspace',444,340);\n}\n</script>\n<noscript class=\"MOAT-wahwahnetworksopenx832423706192?moatClientLevel1={advertiser.id}&amp;moatClientLevel2={order.id}&amp;moatClientLevel3={line.id}&amp;moatClientLevel4={ad.id}&amp;moatClientSlicer1={publisher.id}&amp;moatClientSlicer2={adunit.id}\"></noscript>\n<script src=\"http://js.moatads.com/wahwahnetworksopenx832423706192/moatad.js#moatClientLevel1={advertiser.id}&moatClientLevel2={order.id}&moatClientLevel3={line.id}&moatClientLevel4={ad.id}&moatClientSlicer1={publisher.id}&moatClientSlicer2={adunit.id}\" type=\"text/javascript\"></script>"
+          },
+          "id": null,
+          "creative_id": "669700ff-32f5-4ebe-bc67-44ce16c08845",
+          "weight": null
+        }
+      },
+      "weighting_mode": "EQUAL",
+      "delivery_mode": "WEB",
+	  "fill_rate": 0.30,
+      "nominal_cpm": 4,
+      "actual_rcpm": 2,
+      "actual_ecpm": 3,
+	  "biddable": false,
+	  "bid_url":null,
+	  "guaranteed": false,
+	  "priority": 3
+    },
+    {
+      "id": "f477c7a4-582a-420e-9e8d-75b33d46d0e3",
+      "ads": [
+        "2fe333a0-5b50-4ee3-8754-dbdfc8c45706"
+      ],
+      "ad_map": {
+        "2fe333a0-5b50-4ee3-8754-dbdfc8c45706": {
+          "creative": {
+            "id": null,
+            "creative_type": "HTML",
+            "tag_contents": "<script src=\"https://myspace.com/play/myspace/mix/entertainment-710630/videos/js?frameless=1&volume=0&locationId=240631&refresh=30\"></script>\n\n<script>\nif (typeof customCreative == 'function') { \n  customCreative('myspace',444,340);\n}\n</script>\n<noscript class=\"MOAT-wahwahnetworksopenx832423706192?moatClientLevel1={advertiser.id}&amp;moatClientLevel2={order.id}&amp;moatClientLevel3={line.id}&amp;moatClientLevel4={ad.id}&amp;moatClientSlicer1={publisher.id}&amp;moatClientSlicer2={adunit.id}\"></noscript>\n<script src=\"http://js.moatads.com/wahwahnetworksopenx832423706192/moatad.js#moatClientLevel1={advertiser.id}&moatClientLevel2={order.id}&moatClientLevel3={line.id}&moatClientLevel4={ad.id}&moatClientSlicer1={publisher.id}&moatClientSlicer2={adunit.id}\" type=\"text/javascript\"></script>"
+          },
+          "id": null,
+          "creative_id": "669700ff-32f5-4ebe-bc67-44ce16c08845",
+          "weight": null
+        }
+      },
+      "weighting_mode": "EQUAL",
+      "delivery_mode": "WEB",
+	  "fill_rate": 0.30,
+      "nominal_cpm": 4,
+      "actual_rcpm": 2,
+      "actual_ecpm": 3,
+	  "biddable": false,
+	  "bid_url":null,
+	  "guaranteed": false,
+	  "priority": 3
+    },
+    {
+      "id": "e32e4544-2fdf-4626-baf5-2e19245be144",
+      "ads": [
+        "d3f43a0d-0c1a-4713-8d25-b96231a8e7f1"
+      ],
+      "ad_map": {
+        "d3f43a0d-0c1a-4713-8d25-b96231a8e7f1": {
+          "creative": {
+            "id": null,
+            "creative_type": "HTML",
+            "tag_contents": "<script type=\"text/javascript\">\n\tfunction myspaceminiplayer()\n\t{\n\t\tvar mmpi = document.getElementById('myspace-player');\n\t\tvar mmpis = document.getElementById('myspace-script');\n\t\tif (mmpi)\n\t\t{\n\t\t\ttry { mmpi.parentNode.removeChild(mmpi); } catch (e) {}\n\t\t}\n\t\tif (mmpis)\n\t\t{\n\t\t\ttry { mmpis.parentNode.removeChild(mmpis); } catch (e) {}\n\t\t}\n\n\t\tvar js = document.createElement('script');\n\t\tjs.setAttribute('id', 'myspace-script');\n\t\tjs.setAttribute('src', 'http://media.myspace.com/play/myspace/mix/featured-videos-197605/videos/js?v=1&locationId=240631&volume=0&width=448&height=252&cb=' + Math.floor((Math.random() * 10000000)));\n\t\ttry { document.documentElement.appendChild(js); } catch(e){}\n\t}\n\n\tmyspaceminiplayer();\n\tsetInterval(myspaceminiplayer, 120000);\n</script>\n\n<div style=\"style=\"position: absolute; left: 0px; height: 0px; width: 1px; height: 1px; visibility: hidden\" id=\"wahwahmyspacecampaign\"></div>\n\n<script>\nif (typeof customCreative == 'function') { \n  customCreative('myspace');\n}\n</script>\n<noscript class=\"MOAT-wahwahnetworksopenx832423706192?moatClientLevel1={advertiser.id}&amp;moatClientLevel2={order.id}&amp;moatClientLevel3={line.id}&amp;moatClientLevel4={ad.id}&amp;moatClientSlicer1={publisher.id}&amp;moatClientSlicer2={adunit.id}\"></noscript>\n<script src=\"http://js.moatads.com/wahwahnetworksopenx832423706192/moatad.js#moatClientLevel1={advertiser.id}&moatClientLevel2={order.id}&moatClientLevel3={line.id}&moatClientLevel4={ad.id}&moatClientSlicer1={publisher.id}&moatClientSlicer2={adunit.id}\" type=\"text/javascript\"></script>"
+          },
+          "id": null,
+          "creative_id": "aedf15a4-fa53-4198-8822-d9ac4a57c779",
+          "weight": null
+        }
+      },
+      "weighting_mode": "EQUAL",
+      "delivery_mode": "WEB",
+	  "fill_rate": 0.30,
+      "nominal_cpm": 4,
+      "actual_rcpm": 2,
+      "actual_ecpm": 3,
+	  "biddable": false,
+	  "bid_url":null,
+	  "guaranteed": false,
+	  "priority": 3
+    },
+    {
+      "id": "027ce29a-4789-4165-b48b-642f800bf807",
+      "ads": [
+        "fd46ade0-cead-425f-986c-45cc21a3ecf1",
+        "095c1746-a48e-418a-901b-afc3de9dfb35"
+      ],
+      "ad_map": {
+        "095c1746-a48e-418a-901b-afc3de9dfb35": {
+          "creative": {
+            "id": null,
+            "creative_type": "HTML",
+            "tag_contents": "<script type=\"text/javascript\">\n\tfunction myspaceminiplayer()\n\t{\n\t\tvar mmpi = document.getElementById('myspace-player');\n\t\tvar mmpis = document.getElementById('myspace-script');\n\t\tif (mmpi)\n\t\t{\n\t\t\ttry { mmpi.parentNode.removeChild(mmpi); } catch (e) {}\n\t\t}\n\t\tif (mmpis)\n\t\t{\n\t\t\ttry { mmpis.parentNode.removeChild(mmpis); } catch (e) {}\n\t\t}\n\n\t\tvar js = document.createElement('script');\n\t\tjs.setAttribute('id', 'myspace-script');\n\t\tjs.setAttribute('src', 'http://media.myspace.com/play/cbarnett/mix/featured-videos-709312/videos/js?&locationId=240631&volume=0.001&width=448&height=252&cb=' + Math.floor((Math.random() * 10000000)));\n\t\ttry { document.documentElement.appendChild(js); } catch(e){}\n\t}\n\n\tmyspaceminiplayer();\n\tsetInterval(myspaceminiplayer, 120000);\n</script>\n\n<div style=\"style=\"position: absolute; left: 0px; height: 0px; width: 1px; height: 1px; visibility: hidden\" id=\"wahwahmyspacecampaign\"></div>\n\n<script>\nif (typeof customCreative == 'function') { \n  customCreative('myspace');\n}\n</script>\n<noscript class=\"MOAT-wahwahnetworksopenx832423706192?moatClientLevel1={advertiser.id}&amp;moatClientLevel2={order.id}&amp;moatClientLevel3={line.id}&amp;moatClientLevel4={ad.id}&amp;moatClientSlicer1={publisher.id}&amp;moatClientSlicer2={adunit.id}\"></noscript>\n<script src=\"http://js.moatads.com/wahwahnetworksopenx832423706192/moatad.js#moatClientLevel1={advertiser.id}&moatClientLevel2={order.id}&moatClientLevel3={line.id}&moatClientLevel4={ad.id}&moatClientSlicer1={publisher.id}&moatClientSlicer2={adunit.id}\" type=\"text/javascript\"></script>"
+          },
+          "id": null,
+          "creative_id": "95567c1a-d527-4957-86fc-d535cbb5ecfb",
+          "weight": null
+        },
+        "fd46ade0-cead-425f-986c-45cc21a3ecf1": {
+          "creative": {
+            "id": null,
+            "creative_type": "HTML",
+            "tag_contents": "<script type=\"text/javascript\">\n\tfunction myspaceminiplayer()\n\t{\n\t\tvar mmpi = document.getElementById('myspace-player');\n\t\tvar mmpis = document.getElementById('myspace-script');\n\t\tif (mmpi)\n\t\t{\n\t\t\ttry { mmpi.parentNode.removeChild(mmpi); } catch (e) {}\n\t\t}\n\t\tif (mmpis)\n\t\t{\n\t\t\ttry { mmpis.parentNode.removeChild(mmpis); } catch (e) {}\n\t\t}\n\n\t\tvar js = document.createElement('script');\n\t\tjs.setAttribute('id', 'myspace-script');\n\t\tjs.setAttribute('src', 'http://media.myspace.com/play/myspace/mix/featured-videos-197605/videos/js?v=1&locationId=240631&volume=0&width=448&height=252&cb=' + Math.floor((Math.random() * 10000000)));\n\t\ttry { document.documentElement.appendChild(js); } catch(e){}\n\t}\n\n\tmyspaceminiplayer();\n\tsetInterval(myspaceminiplayer, 120000);\n</script>\n\n<div style=\"style=\"position: absolute; left: 0px; height: 0px; width: 1px; height: 1px; visibility: hidden\" id=\"wahwahmyspacecampaign\"></div>\n\n<script>\nif (typeof customCreative == 'function') { \n  customCreative('myspace');\n}\n</script>\n<noscript class=\"MOAT-wahwahnetworksopenx832423706192?moatClientLevel1={advertiser.id}&amp;moatClientLevel2={order.id}&amp;moatClientLevel3={line.id}&amp;moatClientLevel4={ad.id}&amp;moatClientSlicer1={publisher.id}&amp;moatClientSlicer2={adunit.id}\"></noscript>\n<script src=\"http://js.moatads.com/wahwahnetworksopenx832423706192/moatad.js#moatClientLevel1={advertiser.id}&moatClientLevel2={order.id}&moatClientLevel3={line.id}&moatClientLevel4={ad.id}&moatClientSlicer1={publisher.id}&moatClientSlicer2={adunit.id}\" type=\"text/javascript\"></script>"
+          },
+          "id": null,
+          "creative_id": "aedf15a4-fa53-4198-8822-d9ac4a57c779",
+          "weight": null
+        }
+      },
+      "weighting_mode": "EQUAL",
+      "delivery_mode": "WEB",
+	  "fill_rate": 0.30,
+      "nominal_cpm": 4,
+      "actual_rcpm": 2,
+      "actual_ecpm": 3,
+	  "biddable": false,
+	  "bid_url":null,
+	  "guaranteed": false,
+	  "priority": 3
+    },
+    {
+      "id": "db5a953c-aa70-487e-996d-d6242bf34be5",
+      "ads": [
+        "356bf72b-899d-4df5-b210-7848e8e1ca0c"
+      ],
+      "ad_map": {
+        "356bf72b-899d-4df5-b210-7848e8e1ca0c": {
+          "creative": {
+            "id": null,
+            "creative_type": "HTML",
+            "tag_contents": "<script type=\"text/javascript\">\n\tfunction myspaceminiplayer()\n\t{\n\t\tvar mmpi = document.getElementById('myspace-player');\n\t\tvar mmpis = document.getElementById('myspace-script');\n\t\tif (mmpi)\n\t\t{\n\t\t\ttry { mmpi.parentNode.removeChild(mmpi); } catch (e) {}\n\t\t}\n\t\tif (mmpis)\n\t\t{\n\t\t\ttry { mmpis.parentNode.removeChild(mmpis); } catch (e) {}\n\t\t}\n\n\t\tvar js = document.createElement('script');\n\t\tjs.setAttribute('id', 'myspace-script');\n\t\tjs.setAttribute('src', 'http://media.myspace.com/play/myspace/mix/featured-videos-197605/videos/js?locationId=390395&volume=0.001&width=400&height=251&cb=' + Math.floor((Math.random() * 10000000)));\n\t\ttry { document.documentElement.appendChild(js); } catch(e){}\n\t}\n\n\tmyspaceminiplayer();\n\tsetInterval(myspaceminiplayer, 120000);\n</script>\n\n\n<div style=\"style=\"position: absolute; left: 0px; height: 0px; width: 1px; height: 1px; visibility: hidden\" id=\"wahwahmyspacecampaign\"></div>\n\n<script>\nif (typeof customCreative == 'function') { \n  customCreative('myspace');\n}\n</script>\n<noscript class=\"MOAT-wahwahnetworksopenx832423706192?moatClientLevel1={advertiser.id}&amp;moatClientLevel2={order.id}&amp;moatClientLevel3={line.id}&amp;moatClientLevel4={ad.id}&amp;moatClientSlicer1={publisher.id}&amp;moatClientSlicer2={adunit.id}\"></noscript>\n<script src=\"http://js.moatads.com/wahwahnetworksopenx832423706192/moatad.js#moatClientLevel1={advertiser.id}&moatClientLevel2={order.id}&moatClientLevel3={line.id}&moatClientLevel4={ad.id}&moatClientSlicer1={publisher.id}&moatClientSlicer2={adunit.id}\" type=\"text/javascript\"></script>"
+          },
+          "id": null,
+          "creative_id": "a2800f85-e5d1-49f1-92a5-bdb6ed3b84e7",
+          "weight": null
+        }
+      },
+      "weighting_mode": "EQUAL",
+      "delivery_mode": "WEB",
+	  "fill_rate": 0.30,
+      "nominal_cpm": 4,
+      "actual_rcpm": 2,
+      "actual_ecpm": 3,
+	  "biddable": false,
+	  "bid_url":null,
+	  "guaranteed": false,
+	  "priority": 3
+    },
+    {
+      "id": "30730386-8c28-4ff0-9547-6b61470c07b7",
+      "ads": [
+        "016f831a-d9e8-4823-adcf-16de45c0064c",
+        "0d29ba6d-8f91-4c24-9a4d-77a46edbf0aa",
+        "36197617-549b-43e4-b94f-1a7817c48d12",
+        "bb828b56-1d4a-4ea3-bcf2-8baa139fd3ae",
+        "48a074fd-c1be-4c38-8347-86a2c0fc7742"
+      ],
+      "ad_map": {
+        "36197617-549b-43e4-b94f-1a7817c48d12": {
+          "creative": {
+            "id": null,
+            "creative_type": "HTML",
+            "tag_contents": "<script type=\"text/javascript\">\n\tfunction myspaceminiplayer()\n\t{\n\t\tvar mmpi = document.getElementById('myspace-player');\n\t\tvar mmpis = document.getElementById('myspace-script');\n\t\tif (mmpi)\n\t\t{\n\t\t\ttry { mmpi.parentNode.removeChild(mmpi); } catch (e) {}\n\t\t}\n\t\tif (mmpis)\n\t\t{\n\t\t\ttry { mmpis.parentNode.removeChild(mmpis); } catch (e) {}\n\t\t}\n\n\t\tvar js = document.createElement('script');\n\t\tjs.setAttribute('id', 'myspace-script');\n\t\tjs.setAttribute('src', 'http://media.myspace.com/play/myspace/mix/featured-videos-197605/videos/js?v=1&locationId=240631&volume=0&width=448&height=252&cb=' + Math.floor((Math.random() * 10000000)));\n\t\ttry { document.documentElement.appendChild(js); } catch(e){}\n\t}\n\n\tmyspaceminiplayer();\n\tsetInterval(myspaceminiplayer, 120000);\n</script>\n\n<div style=\"style=\"position: absolute; left: 0px; height: 0px; width: 1px; height: 1px; visibility: hidden\" id=\"wahwahmyspacecampaign\"></div>\n\n<script>\nif (typeof customCreative == 'function') { \n  customCreative('myspace');\n}\n</script>\n<noscript class=\"MOAT-wahwahnetworksopenx832423706192?moatClientLevel1={advertiser.id}&amp;moatClientLevel2={order.id}&amp;moatClientLevel3={line.id}&amp;moatClientLevel4={ad.id}&amp;moatClientSlicer1={publisher.id}&amp;moatClientSlicer2={adunit.id}\"></noscript>\n<script src=\"http://js.moatads.com/wahwahnetworksopenx832423706192/moatad.js#moatClientLevel1={advertiser.id}&moatClientLevel2={order.id}&moatClientLevel3={line.id}&moatClientLevel4={ad.id}&moatClientSlicer1={publisher.id}&moatClientSlicer2={adunit.id}\" type=\"text/javascript\"></script>"
+          },
+          "id": null,
+          "creative_id": "aedf15a4-fa53-4198-8822-d9ac4a57c779",
+          "weight": null
+        },
+        "016f831a-d9e8-4823-adcf-16de45c0064c": {
+          "creative": {
+            "id": null,
+            "creative_type": "HTML",
+            "tag_contents": "<script type=\"text/javascript\">\n\tfunction myspaceminiplayer()\n\t{\n\t\tvar mmpi = document.getElementById('myspace-player');\n\t\tvar mmpis = document.getElementById('myspace-script');\n\t\tif (mmpi)\n\t\t{\n\t\t\ttry { mmpi.parentNode.removeChild(mmpi); } catch (e) {}\n\t\t}\n\t\tif (mmpis)\n\t\t{\n\t\t\ttry { mmpis.parentNode.removeChild(mmpis); } catch (e) {}\n\t\t}\n\n\t\tvar js = document.createElement('script');\n\t\tjs.setAttribute('id', 'myspace-script');\n\t\tjs.setAttribute('src', 'http://media.myspace.com/play/myspace/mix/featured-videos-197605/videos/js?locationId=390395&volume=0.001&width=400&height=251&cb=' + Math.floor((Math.random() * 10000000)));\n\t\ttry { document.documentElement.appendChild(js); } catch(e){}\n\t}\n\n\tmyspaceminiplayer();\n\tsetInterval(myspaceminiplayer, 120000);\n</script>\n\n\n<div style=\"style=\"position: absolute; left: 0px; height: 0px; width: 1px; height: 1px; visibility: hidden\" id=\"wahwahmyspacecampaign\"></div>\n\n<script>\nif (typeof customCreative == 'function') { \n  customCreative('myspace');\n}\n</script>\n<noscript class=\"MOAT-wahwahnetworksopenx832423706192?moatClientLevel1={advertiser.id}&amp;moatClientLevel2={order.id}&amp;moatClientLevel3={line.id}&amp;moatClientLevel4={ad.id}&amp;moatClientSlicer1={publisher.id}&amp;moatClientSlicer2={adunit.id}\"></noscript>\n<script src=\"http://js.moatads.com/wahwahnetworksopenx832423706192/moatad.js#moatClientLevel1={advertiser.id}&moatClientLevel2={order.id}&moatClientLevel3={line.id}&moatClientLevel4={ad.id}&moatClientSlicer1={publisher.id}&moatClientSlicer2={adunit.id}\" type=\"text/javascript\"></script>"
+          },
+          "id": null,
+          "creative_id": "a2800f85-e5d1-49f1-92a5-bdb6ed3b84e7",
+          "weight": null
+        },
+        "0d29ba6d-8f91-4c24-9a4d-77a46edbf0aa": {
+          "creative": {
+            "id": null,
+            "creative_type": "HTML",
+            "tag_contents": "<script type=\"text/javascript\">\n\tfunction myspaceminiplayer()\n\t{\n\t\tvar mmpi = document.getElementById('myspace-player');\n\t\tvar mmpis = document.getElementById('myspace-script');\n\t\tif (mmpi)\n\t\t{\n\t\t\ttry { mmpi.parentNode.removeChild(mmpi); } catch (e) {}\n\t\t}\n\t\tif (mmpis)\n\t\t{\n\t\t\ttry { mmpis.parentNode.removeChild(mmpis); } catch (e) {}\n\t\t}\n\n\t\tvar js = document.createElement('script');\n\t\tjs.setAttribute('id', 'myspace-script');\n\t\tjs.setAttribute('src', 'http://media.myspace.com/play/myspace/mix/featured-videos-197605/videos/js?v=1&locationId=240631&volume=.001&cb=' + Math.floor((Math.random() * 10000000)));\n\t\ttry { document.documentElement.appendChild(js); } catch(e){}\n\t}\n\n\tmyspaceminiplayer();\n\tsetInterval(myspaceminiplayer, 120000);\n</script>\n\n<div style=\"style=\"position: absolute; left: 0px; height: 0px; width: 1px; height: 1px; visibility: hidden\" id=\"wahwahmyspacecampaign\"></div>\n<noscript class=\"MOAT-wahwahnetworksopenx832423706192?moatClientLevel1={advertiser.id}&amp;moatClientLevel2={order.id}&amp;moatClientLevel3={line.id}&amp;moatClientLevel4={ad.id}&amp;moatClientSlicer1={publisher.id}&amp;moatClientSlicer2={adunit.id}\"></noscript>\n<script src=\"http://js.moatads.com/wahwahnetworksopenx832423706192/moatad.js#moatClientLevel1={advertiser.id}&moatClientLevel2={order.id}&moatClientLevel3={line.id}&moatClientLevel4={ad.id}&moatClientSlicer1={publisher.id}&moatClientSlicer2={adunit.id}\" type=\"text/javascript\"></script>"
+          },
+          "id": null,
+          "creative_id": "e8aa64a5-214d-4da9-b936-6112a0b85c7a",
+          "weight": null
+        },
+        "bb828b56-1d4a-4ea3-bcf2-8baa139fd3ae": {
+          "creative": {
+            "id": null,
+            "creative_type": "HTML",
+            "tag_contents": "<script src=\"https://myspace.com/play/cbarnett/mix/featured-videos-709312/videos/js?frameless=1&locationId=399302&refresh=30\"></script>\n<div style=\"style=\"position: absolute; left: 0px; height: 0px; width: 1px; height: 1px; visibility: hidden\" id=\"wahwahmyspacecampaign\"></div>\n\n<script>\nif (typeof customCreative == 'function') { \n  customCreative('myspace');\n}\n</script>\n<noscript class=\"MOAT-wahwahnetworksopenx832423706192?moatClientLevel1={advertiser.id}&amp;moatClientLevel2={order.id}&amp;moatClientLevel3={line.id}&amp;moatClientLevel4={ad.id}&amp;moatClientSlicer1={publisher.id}&amp;moatClientSlicer2={adunit.id}\"></noscript>\n<script src=\"http://js.moatads.com/wahwahnetworksopenx832423706192/moatad.js#moatClientLevel1={advertiser.id}&moatClientLevel2={order.id}&moatClientLevel3={line.id}&moatClientLevel4={ad.id}&moatClientSlicer1={publisher.id}&moatClientSlicer2={adunit.id}\" type=\"text/javascript\"></script>"
+          },
+          "id": null,
+          "creative_id": "84b35159-b1d2-4e9b-8e71-e2995a66f10e",
+          "weight": null
+        },
+        "48a074fd-c1be-4c38-8347-86a2c0fc7742": {
+          "creative": {
+            "id": null,
+            "creative_type": "HTML",
+            "tag_contents": "<script type=\"text/javascript\">\n\tfunction myspaceminiplayer()\n\t{\n\t\tvar mmpi = document.getElementById('myspace-player');\n\t\tvar mmpis = document.getElementById('myspace-script');\n\t\tif (mmpi)\n\t\t{\n\t\t\ttry { mmpi.parentNode.removeChild(mmpi); } catch (e) {}\n\t\t}\n\t\tif (mmpis)\n\t\t{\n\t\t\ttry { mmpis.parentNode.removeChild(mmpis); } catch (e) {}\n\t\t}\n\n\t\tvar js = document.createElement('script');\n\t\tjs.setAttribute('id', 'myspace-script');\n\t\tjs.setAttribute('src', 'http://media.myspace.com/play/cbarnett/mix/featured-videos-709312/videos/js?&locationId=240631&volume=0.001&width=448&height=252&cb=' + Math.floor((Math.random() * 10000000)));\n\t\ttry { document.documentElement.appendChild(js); } catch(e){}\n\t}\n\n\tmyspaceminiplayer();\n\tsetInterval(myspaceminiplayer, 120000);\n</script>\n\n<div style=\"style=\"position: absolute; left: 0px; height: 0px; width: 1px; height: 1px; visibility: hidden\" id=\"wahwahmyspacecampaign\"></div>\n\n<script>\nif (typeof customCreative == 'function') { \n  customCreative('myspace');\n}\n</script>\n<noscript class=\"MOAT-wahwahnetworksopenx832423706192?moatClientLevel1={advertiser.id}&amp;moatClientLevel2={order.id}&amp;moatClientLevel3={line.id}&amp;moatClientLevel4={ad.id}&amp;moatClientSlicer1={publisher.id}&amp;moatClientSlicer2={adunit.id}\"></noscript>\n<script src=\"http://js.moatads.com/wahwahnetworksopenx832423706192/moatad.js#moatClientLevel1={advertiser.id}&moatClientLevel2={order.id}&moatClientLevel3={line.id}&moatClientLevel4={ad.id}&moatClientSlicer1={publisher.id}&moatClientSlicer2={adunit.id}\" type=\"text/javascript\"></script>"
+          },
+          "id": null,
+          "creative_id": "4d1df6d3-9ff6-497c-82d1-6e06b7696b7c",
+          "weight": null
+        }
+      },
+      "weighting_mode": "EQUAL",
+      "delivery_mode": "WEB",
+	  "fill_rate": 0.30,
+      "nominal_cpm": 4,
+      "actual_rcpm": 2,
+      "actual_ecpm": 3,
+	  "biddable": false,
+	  "bid_url":null,
+	  "guaranteed": false,
+	  "priority": 3
+    },
+    {
+      "id": "e36dbcad-a09c-4cea-bc7e-f18fc896ecfd",
+      "ads": [
+        "a878a143-a6a2-4110-972e-a7d8825deac8"
+      ],
+      "ad_map": {
+        "a878a143-a6a2-4110-972e-a7d8825deac8": {
+          "creative": {
+            "id": null,
+            "creative_type": "HTML",
+            "tag_contents": "<script type=\"text/javascript\">\n\tfunction myspaceminiplayer()\n\t{\n\t\tvar mmpi = document.getElementById('myspace-player');\n\t\tvar mmpis = document.getElementById('myspace-script');\n\t\tif (mmpi)\n\t\t{\n\t\t\ttry { mmpi.parentNode.removeChild(mmpi); } catch (e) {}\n\t\t}\n\t\tif (mmpis)\n\t\t{\n\t\t\ttry { mmpis.parentNode.removeChild(mmpis); } catch (e) {}\n\t\t}\n\n\t\tvar js = document.createElement('script');\n\t\tjs.setAttribute('id', 'myspace-script');\n\t\tjs.setAttribute('src', 'http://media.myspace.com/play/myspace/mix/featured-videos-197605/videos/js?locationId=390395&volume=0.001&width=400&height=251&cb=' + Math.floor((Math.random() * 10000000)));\n\t\ttry { document.documentElement.appendChild(js); } catch(e){}\n\t}\n\n\tmyspaceminiplayer();\n\tsetInterval(myspaceminiplayer, 120000);\n</script>\n\n\n<div style=\"style=\"position: absolute; left: 0px; height: 0px; width: 1px; height: 1px; visibility: hidden\" id=\"wahwahmyspacecampaign\"></div>\n<script>\nif (typeof customCreative == 'function') { \n  customCreative('myspace',484,296);\n}\n</script>\n<noscript class=\"MOAT-wahwahnetworksopenx832423706192?moatClientLevel1={advertiser.id}&amp;moatClientLevel2={order.id}&amp;moatClientLevel3={line.id}&amp;moatClientLevel4={ad.id}&amp;moatClientSlicer1={publisher.id}&amp;moatClientSlicer2={adunit.id}\"></noscript>\n<script src=\"http://js.moatads.com/wahwahnetworksopenx832423706192/moatad.js#moatClientLevel1={advertiser.id}&moatClientLevel2={order.id}&moatClientLevel3={line.id}&moatClientLevel4={ad.id}&moatClientSlicer1={publisher.id}&moatClientSlicer2={adunit.id}\" type=\"text/javascript\"></script>"
+          },
+          "id": null,
+          "creative_id": "b6a7dacd-8ef4-4e0a-8ea2-6ba79b89456b",
+          "weight": null
+        }
+      },
+      "weighting_mode": "EQUAL",
+      "delivery_mode": "WEB",
+	  "fill_rate": 0.30,
+      "nominal_cpm": 4,
+      "actual_rcpm": 2,
+      "actual_ecpm": 3,
+	  "biddable": false,
+	  "bid_url":null,
+	  "guaranteed": false,
+	  "priority": 3
+    },
+    {
+      "id": "ef352f8b-6c02-42eb-94a0-71167eaace99",
+      "ads": [
+        "0d36f168-5a7e-4f2b-89e1-227d74e13260"
+      ],
+      "ad_map": {
+        "0d36f168-5a7e-4f2b-89e1-227d74e13260": {
+          "creative": {
+            "id": null,
+            "creative_type": "HTML",
+            "tag_contents": "<script type=\"text/javascript\">\n\tfunction myspaceminiplayer()\n\t{\n\t\tvar mmpi = document.getElementById('myspace-player');\n\t\tvar mmpis = document.getElementById('myspace-script');\n\t\tif (mmpi)\n\t\t{\n\t\t\ttry { mmpi.parentNode.removeChild(mmpi); } catch (e) {}\n\t\t}\n\t\tif (mmpis)\n\t\t{\n\t\t\ttry { mmpis.parentNode.removeChild(mmpis); } catch (e) {}\n\t\t}\n\n\t\tvar js = document.createElement('script');\n\t\tjs.setAttribute('id', 'myspace-script');\n\t\tjs.setAttribute('src', 'http://media.myspace.com/play/myspace/mix/featured-videos-197605/videos/js?v=1&locationId=240631&volume=0&width=448&height=252&cb=' + Math.floor((Math.random() * 10000000)));\n\t\ttry { document.documentElement.appendChild(js); } catch(e){}\n\t}\n\n\tmyspaceminiplayer();\n\tsetInterval(myspaceminiplayer, 120000);\n</script>\n\n<div style=\"style=\"position: absolute; left: 0px; height: 0px; width: 1px; height: 1px; visibility: hidden\" id=\"wahwahmyspacecampaign\"></div>\n\n<script>\nif (typeof customCreative == 'function') { \n  customCreative('myspace');\n}\n</script>\n<noscript class=\"MOAT-wahwahnetworksopenx832423706192?moatClientLevel1={advertiser.id}&amp;moatClientLevel2={order.id}&amp;moatClientLevel3={line.id}&amp;moatClientLevel4={ad.id}&amp;moatClientSlicer1={publisher.id}&amp;moatClientSlicer2={adunit.id}\"></noscript>\n<script src=\"http://js.moatads.com/wahwahnetworksopenx832423706192/moatad.js#moatClientLevel1={advertiser.id}&moatClientLevel2={order.id}&moatClientLevel3={line.id}&moatClientLevel4={ad.id}&moatClientSlicer1={publisher.id}&moatClientSlicer2={adunit.id}\" type=\"text/javascript\"></script>"
+          },
+          "id": null,
+          "creative_id": "aedf15a4-fa53-4198-8822-d9ac4a57c779",
+          "weight": null
+        }
+      },
+      "weighting_mode": "EQUAL",
+      "delivery_mode": "WEB",
+	  "fill_rate": 0.30,
+      "nominal_cpm": 4,
+      "actual_rcpm": 2,
+      "actual_ecpm": 3,
+	  "biddable": false,
+	  "bid_url":null,
+	  "guaranteed": false,
+	  "priority": 3
+    },
+    {
+      "id": "e960f92b-3ae6-44de-b100-e970a50c593f",
+      "ads": [
+        "e4eb4f9e-ac0d-40f6-8105-37b0be0ac650"
+      ],
+      "ad_map": {
+        "e4eb4f9e-ac0d-40f6-8105-37b0be0ac650": {
+          "creative": {
+            "id": null,
+            "creative_type": "HTML",
+            "tag_contents": "<script type=\"text/javascript\">\n\tfunction myspaceminiplayer()\n\t{\n\t\tvar mmpi = document.getElementById('myspace-player');\n\t\tvar mmpis = document.getElementById('myspace-script');\n\t\tif (mmpi)\n\t\t{\n\t\t\ttry { mmpi.parentNode.removeChild(mmpi); } catch (e) {}\n\t\t}\n\t\tif (mmpis)\n\t\t{\n\t\t\ttry { mmpis.parentNode.removeChild(mmpis); } catch (e) {}\n\t\t}\n\n\t\tvar js = document.createElement('script');\n\t\tjs.setAttribute('id', 'myspace-script');\n\t\tjs.setAttribute('src', 'http://media.myspace.com/play/myspace/mix/featured-videos-197605/videos/js?locationId=390395&volume=0.001&width=400&height=251&cb=' + Math.floor((Math.random() * 10000000)));\n\t\ttry { document.documentElement.appendChild(js); } catch(e){}\n\t}\n\n\tmyspaceminiplayer();\n\tsetInterval(myspaceminiplayer, 120000);\n</script>\n\n\n<div style=\"style=\"position: absolute; left: 0px; height: 0px; width: 1px; height: 1px; visibility: hidden\" id=\"wahwahmyspacecampaign\"></div>\n<script>\nif (typeof customCreative == 'function') { \n  customCreative('myspace',484,296);\n}\n</script>\n<noscript class=\"MOAT-wahwahnetworksopenx832423706192?moatClientLevel1={advertiser.id}&amp;moatClientLevel2={order.id}&amp;moatClientLevel3={line.id}&amp;moatClientLevel4={ad.id}&amp;moatClientSlicer1={publisher.id}&amp;moatClientSlicer2={adunit.id}\"></noscript>\n<script src=\"http://js.moatads.com/wahwahnetworksopenx832423706192/moatad.js#moatClientLevel1={advertiser.id}&moatClientLevel2={order.id}&moatClientLevel3={line.id}&moatClientLevel4={ad.id}&moatClientSlicer1={publisher.id}&moatClientSlicer2={adunit.id}\" type=\"text/javascript\"></script>"
+          },
+          "id": null,
+          "creative_id": "b6a7dacd-8ef4-4e0a-8ea2-6ba79b89456b",
+          "weight": null
+        }
+      },
+      "weighting_mode": "EQUAL",
+      "delivery_mode": "WEB",
+	  "fill_rate": 0.30,
+      "nominal_cpm": 4,
+      "actual_rcpm": 2,
+      "actual_ecpm": 3,
+	  "biddable": false,
+	  "bid_url":null,
+	  "guaranteed": false,
+	  "priority": 3
+    },
+    {
+      "id": "24659f0f-02c3-4524-85b8-8616d6214cac",
+      "ads": [
+        "0b24feb9-dfd6-4b8b-beac-0d137f8ecc10"
+      ],
+      "ad_map": {
+        "0b24feb9-dfd6-4b8b-beac-0d137f8ecc10": {
+          "creative": {
+            "id": null,
+            "creative_type": "HTML",
+            "tag_contents": "<script type='text/javascript'>\n<!--//<![CDATA[\n   document.MAX_ct0 ='';\n   var m3_u = (location.protocol=='https:'?'https://cas.criteo.com/delivery/ajs.php?':'http://cas.criteo.com/delivery/ajs.php?');\n   var m3_r = Math.floor(Math.random()*99999999999);\n   document.write (\"<scr\"+\"ipt type='text/javascript' src='\"+m3_u);\n   document.write (\"zoneid=186552\");document.write(\"&amp;nodis=1\");\n   document.write ('&amp;cb=' + m3_r);\n   if (document.MAX_used != ',') document.write (\"&amp;exclude=\" + document.MAX_used);\n   document.write (document.charset ? '&amp;charset='+document.charset : (document.characterSet ? '&amp;charset='+document.characterSet : ''));\n   document.write (\"&amp;loc=\" + escape(window.location));\n   if (document.referrer) document.write (\"&amp;referer=\" + escape(document.referrer));\n   if (document.context) document.write (\"&context=\" + escape(document.context));\n   if ((typeof(document.MAX_ct0) != 'undefined') && (document.MAX_ct0.substring(0,4) == 'http')) {\n       document.write (\"&amp;ct0=\" + escape(document.MAX_ct0));\n   }\n   if (document.mmm_fo) document.write (\"&amp;mmm_fo=1\");\n   document.write (\"'></scr\"+\"ipt>\");\n//]]>--></script>\n<noscript class=\"MOAT-wahwahnetworksopenx832423706192?moatClientLevel1={advertiser.id}&amp;moatClientLevel2={order.id}&amp;moatClientLevel3={line.id}&amp;moatClientLevel4={ad.id}&amp;moatClientSlicer1={publisher.id}&amp;moatClientSlicer2={adunit.id}\"></noscript>\n<script src=\"http://js.moatads.com/wahwahnetworksopenx832423706192/moatad.js#moatClientLevel1={advertiser.id}&moatClientLevel2={order.id}&moatClientLevel3={line.id}&moatClientLevel4={ad.id}&moatClientSlicer1={publisher.id}&moatClientSlicer2={adunit.id}\" type=\"text/javascript\"></script>"
+          },
+          "id": null,
+          "creative_id": "8bacbbfc-032f-4614-8584-c9a19d6ee2fd",
+          "weight": null
+        }
+      },
+      "weighting_mode": "EQUAL",
+      "delivery_mode": "WEB",
+	  "fill_rate": 0.30,
+      "nominal_cpm": 5,
+      "actual_rcpm": 3,
+      "actual_ecpm": 4,
+	  "biddable": false,
+	  "bid_url":null,
+	  "guaranteed": false,
+	  "priority": 3
+    },
+    {
+      "id": "022898f1-e62f-4c14-a490-8297bf260a2d",
+      "ads": [
+        "e54c8b17-872f-42f3-abfe-870dac8427c2"
+      ],
+      "ad_map": {
+        "e54c8b17-872f-42f3-abfe-870dac8427c2": {
+          "creative": {
+            "id": null,
+            "creative_type": "HTML",
+            "tag_contents": "<script type='text/javascript'>\n<!--//<![CDATA[\n   document.MAX_ct0 ='';\n   var m3_u = (location.protocol=='https:'?'https://cas.criteo.com/delivery/ajs.php?':'http://cas.criteo.com/delivery/ajs.php?');\n   var m3_r = Math.floor(Math.random()*99999999999);\n   document.write (\"<scr\"+\"ipt type='text/javascript' src='\"+m3_u);\n   document.write (\"zoneid=186552\");document.write(\"&amp;nodis=1\");\n   document.write ('&amp;cb=' + m3_r);\n   if (document.MAX_used != ',') document.write (\"&amp;exclude=\" + document.MAX_used);\n   document.write (document.charset ? '&amp;charset='+document.charset : (document.characterSet ? '&amp;charset='+document.characterSet : ''));\n   document.write (\"&amp;loc=\" + escape(window.location));\n   if (document.referrer) document.write (\"&amp;referer=\" + escape(document.referrer));\n   if (document.context) document.write (\"&context=\" + escape(document.context));\n   if ((typeof(document.MAX_ct0) != 'undefined') && (document.MAX_ct0.substring(0,4) == 'http')) {\n       document.write (\"&amp;ct0=\" + escape(document.MAX_ct0));\n   }\n   if (document.mmm_fo) document.write (\"&amp;mmm_fo=1\");\n   document.write (\"'></scr\"+\"ipt>\");\n//]]>--></script>\n<noscript class=\"MOAT-wahwahnetworksopenx832423706192?moatClientLevel1={advertiser.id}&amp;moatClientLevel2={order.id}&amp;moatClientLevel3={line.id}&amp;moatClientLevel4={ad.id}&amp;moatClientSlicer1={publisher.id}&amp;moatClientSlicer2={adunit.id}\"></noscript>\n<script src=\"http://js.moatads.com/wahwahnetworksopenx832423706192/moatad.js#moatClientLevel1={advertiser.id}&moatClientLevel2={order.id}&moatClientLevel3={line.id}&moatClientLevel4={ad.id}&moatClientSlicer1={publisher.id}&moatClientSlicer2={adunit.id}\" type=\"text/javascript\"></script>"
+          },
+          "id": null,
+          "creative_id": "8bacbbfc-032f-4614-8584-c9a19d6ee2fd",
+          "weight": null
+        }
+      },
+      "weighting_mode": "EQUAL",
+      "delivery_mode": "WEB",
+	  "fill_rate": 0.30,
+      "nominal_cpm": 5,
+      "actual_rcpm": 3,
+      "actual_ecpm": 4,
+	  "biddable": false,
+	  "bid_url":null,
+	  "guaranteed": false,
+	  "priority": 3
+    },
+    {
+      "id": "ff5435be-8d62-475c-a5d1-62bf54289c7e",
+      "ads": [
+        "db7d6261-251b-4b4f-b57d-3eca2a69e993"
+      ],
+      "ad_map": {
+        "db7d6261-251b-4b4f-b57d-3eca2a69e993": {
+          "creative": {
+            "id": null,
+            "creative_type": "HTML",
+            "tag_contents": "<script type='text/javascript'>\n<!--//<![CDATA[\n   document.MAX_ct0 ='';\n   var m3_u = (location.protocol=='https:'?'https://cas.criteo.com/delivery/ajs.php?':'http://cas.criteo.com/delivery/ajs.php?');\n   var m3_r = Math.floor(Math.random()*99999999999);\n   document.write (\"<scr\"+\"ipt type='text/javascript' src='\"+m3_u);\n   document.write (\"zoneid=186553\");document.write(\"&amp;nodis=1\");\n   document.write ('&amp;cb=' + m3_r);\n   if (document.MAX_used != ',') document.write (\"&amp;exclude=\" + document.MAX_used);\n   document.write (document.charset ? '&amp;charset='+document.charset : (document.characterSet ? '&amp;charset='+document.characterSet : ''));\n   document.write (\"&amp;loc=\" + escape(window.location));\n   if (document.referrer) document.write (\"&amp;referer=\" + escape(document.referrer));\n   if (document.context) document.write (\"&context=\" + escape(document.context));\n   if ((typeof(document.MAX_ct0) != 'undefined') && (document.MAX_ct0.substring(0,4) == 'http')) {\n       document.write (\"&amp;ct0=\" + escape(document.MAX_ct0));\n   }\n   if (document.mmm_fo) document.write (\"&amp;mmm_fo=1\");\n   document.write (\"'></scr\"+\"ipt>\");\n//]]>--></script>\n<noscript class=\"MOAT-wahwahnetworksopenx832423706192?moatClientLevel1={advertiser.id}&amp;moatClientLevel2={order.id}&amp;moatClientLevel3={line.id}&amp;moatClientLevel4={ad.id}&amp;moatClientSlicer1={publisher.id}&amp;moatClientSlicer2={adunit.id}\"></noscript>\n<script src=\"http://js.moatads.com/wahwahnetworksopenx832423706192/moatad.js#moatClientLevel1={advertiser.id}&moatClientLevel2={order.id}&moatClientLevel3={line.id}&moatClientLevel4={ad.id}&moatClientSlicer1={publisher.id}&moatClientSlicer2={adunit.id}\" type=\"text/javascript\"></script>"
+          },
+          "id": null,
+          "creative_id": "963ee8e0-1aea-4830-a405-845426db3daa",
+          "weight": null
+        }
+      },
+      "weighting_mode": "EQUAL",
+      "delivery_mode": "WEB",
+	  "fill_rate": 0.30,
+      "nominal_cpm": 5,
+      "actual_rcpm": 3,
+      "actual_ecpm": 4,
+	  "biddable": false,
+	  "bid_url":null,
+	  "guaranteed": false,
+	  "priority": 3
+    },
+    {
+      "id": "93c4089c-940e-4770-82c4-30ddffbd0eda",
+      "ads": [
+        "0293d5f4-b480-4468-bb19-0ab12b873746"
+      ],
+      "ad_map": {
+        "0293d5f4-b480-4468-bb19-0ab12b873746": {
+          "creative": {
+            "id": null,
+            "creative_type": "HTML",
+            "tag_contents": "<script type='text/javascript'>\n<!--//<![CDATA[\n   document.MAX_ct0 ='';\n   var m3_u = (location.protocol=='https:'?'https://cas.criteo.com/delivery/ajs.php?':'http://cas.criteo.com/delivery/ajs.php?');\n   var m3_r = Math.floor(Math.random()*99999999999);\n   document.write (\"<scr\"+\"ipt type='text/javascript' src='\"+m3_u);\n   document.write (\"zoneid=186536\");document.write(\"&amp;nodis=1\");\n   document.write ('&amp;cb=' + m3_r);\n   if (document.MAX_used != ',') document.write (\"&amp;exclude=\" + document.MAX_used);\n   document.write (document.charset ? '&amp;charset='+document.charset : (document.characterSet ? '&amp;charset='+document.characterSet : ''));\n   document.write (\"&amp;loc=\" + escape(window.location));\n   if (document.referrer) document.write (\"&amp;referer=\" + escape(document.referrer));\n   if (document.context) document.write (\"&context=\" + escape(document.context));\n   if ((typeof(document.MAX_ct0) != 'undefined') && (document.MAX_ct0.substring(0,4) == 'http')) {\n       document.write (\"&amp;ct0=\" + escape(document.MAX_ct0));\n   }\n   if (document.mmm_fo) document.write (\"&amp;mmm_fo=1\");\n   document.write (\"'></scr\"+\"ipt>\");\n//]]>--></script>\n<noscript class=\"MOAT-wahwahnetworksopenx832423706192?moatClientLevel1={advertiser.id}&amp;moatClientLevel2={order.id}&amp;moatClientLevel3={line.id}&amp;moatClientLevel4={ad.id}&amp;moatClientSlicer1={publisher.id}&amp;moatClientSlicer2={adunit.id}\"></noscript>\n<script src=\"http://js.moatads.com/wahwahnetworksopenx832423706192/moatad.js#moatClientLevel1={advertiser.id}&moatClientLevel2={order.id}&moatClientLevel3={line.id}&moatClientLevel4={ad.id}&moatClientSlicer1={publisher.id}&moatClientSlicer2={adunit.id}\" type=\"text/javascript\"></script>"
+          },
+          "id": null,
+          "creative_id": "506b7807-0d4e-4a66-b9c0-c162c0a9b7a6",
+          "weight": null
+        }
+      },
+      "weighting_mode": "EQUAL",
+      "delivery_mode": "WEB",
+	  "fill_rate": 0.30,
+      "nominal_cpm": 5,
+      "actual_rcpm": 3,
+      "actual_ecpm": 4,
+	  "biddable": false,
+	  "bid_url":null,
+	  "guaranteed": false,
+	  "priority": 3
+    },
+    {
+      "id": "998f7e3e-63aa-4ff9-9631-f54bd37b95da",
+      "ads": [
+        "52d40402-9b5c-48af-a7b5-ebfad13c6090"
+      ],
+      "ad_map": {
+        "52d40402-9b5c-48af-a7b5-ebfad13c6090": {
+          "creative": {
+            "id": null,
+            "creative_type": "HTML",
+            "tag_contents": "<script type='text/javascript'>\n<!--//<![CDATA[\n   document.MAX_ct0 ='';\n   var m3_u = (location.protocol=='https:'?'https://cas.criteo.com/delivery/ajs.php?':'http://cas.criteo.com/delivery/ajs.php?');\n   var m3_r = Math.floor(Math.random()*99999999999);\n   document.write (\"<scr\"+\"ipt type='text/javascript' src='\"+m3_u);\n   document.write (\"zoneid=186537\");document.write(\"&amp;nodis=1\");\n   document.write ('&amp;cb=' + m3_r);\n   if (document.MAX_used != ',') document.write (\"&amp;exclude=\" + document.MAX_used);\n   document.write (document.charset ? '&amp;charset='+document.charset : (document.characterSet ? '&amp;charset='+document.characterSet : ''));\n   document.write (\"&amp;loc=\" + escape(window.location));\n   if (document.referrer) document.write (\"&amp;referer=\" + escape(document.referrer));\n   if (document.context) document.write (\"&context=\" + escape(document.context));\n   if ((typeof(document.MAX_ct0) != 'undefined') && (document.MAX_ct0.substring(0,4) == 'http')) {\n       document.write (\"&amp;ct0=\" + escape(document.MAX_ct0));\n   }\n   if (document.mmm_fo) document.write (\"&amp;mmm_fo=1\");\n   document.write (\"'></scr\"+\"ipt>\");\n//]]>--></script>\n<noscript class=\"MOAT-wahwahnetworksopenx832423706192?moatClientLevel1={advertiser.id}&amp;moatClientLevel2={order.id}&amp;moatClientLevel3={line.id}&amp;moatClientLevel4={ad.id}&amp;moatClientSlicer1={publisher.id}&amp;moatClientSlicer2={adunit.id}\"></noscript>\n<script src=\"http://js.moatads.com/wahwahnetworksopenx832423706192/moatad.js#moatClientLevel1={advertiser.id}&moatClientLevel2={order.id}&moatClientLevel3={line.id}&moatClientLevel4={ad.id}&moatClientSlicer1={publisher.id}&moatClientSlicer2={adunit.id}\" type=\"text/javascript\"></script>"
+          },
+          "id": null,
+          "creative_id": "308fc547-7c43-4845-a15a-60647db2daf6",
+          "weight": null
+        }
+      },
+      "weighting_mode": "EQUAL",
+      "delivery_mode": "WEB",
+	  "fill_rate": 0.30,
+      "nominal_cpm": 5,
+      "actual_rcpm": 3,
+      "actual_ecpm": 4,
+	  "biddable": false,
+	  "bid_url":null,
+	  "guaranteed": false,
+	  "priority": 3
+    },
+    {
+      "id": "1c1cb94d-3f08-4b18-a2c4-080e4d72f60e",
+      "ads": [
+        "5d6bac2e-83aa-4bb5-96a4-cd77a52b7b56"
+      ],
+      "ad_map": {
+        "5d6bac2e-83aa-4bb5-96a4-cd77a52b7b56": {
+          "creative": {
+            "id": null,
+            "creative_type": "HTML",
+            "tag_contents": "<script type='text/javascript'>\n<!--//<![CDATA[\n   document.MAX_ct0 ='';\n   var m3_u = (location.protocol=='https:'?'https://cas.criteo.com/delivery/ajs.php?':'http://cas.criteo.com/delivery/ajs.php?');\n   var m3_r = Math.floor(Math.random()*99999999999);\n   document.write (\"<scr\"+\"ipt type='text/javascript' src='\"+m3_u);\n   document.write (\"zoneid=186537\");document.write(\"&amp;nodis=1\");\n   document.write ('&amp;cb=' + m3_r);\n   if (document.MAX_used != ',') document.write (\"&amp;exclude=\" + document.MAX_used);\n   document.write (document.charset ? '&amp;charset='+document.charset : (document.characterSet ? '&amp;charset='+document.characterSet : ''));\n   document.write (\"&amp;loc=\" + escape(window.location));\n   if (document.referrer) document.write (\"&amp;referer=\" + escape(document.referrer));\n   if (document.context) document.write (\"&context=\" + escape(document.context));\n   if ((typeof(document.MAX_ct0) != 'undefined') && (document.MAX_ct0.substring(0,4) == 'http')) {\n       document.write (\"&amp;ct0=\" + escape(document.MAX_ct0));\n   }\n   if (document.mmm_fo) document.write (\"&amp;mmm_fo=1\");\n   document.write (\"'></scr\"+\"ipt>\");\n//]]>--></script>\n<noscript class=\"MOAT-wahwahnetworksopenx832423706192?moatClientLevel1={advertiser.id}&amp;moatClientLevel2={order.id}&amp;moatClientLevel3={line.id}&amp;moatClientLevel4={ad.id}&amp;moatClientSlicer1={publisher.id}&amp;moatClientSlicer2={adunit.id}\"></noscript>\n<script src=\"http://js.moatads.com/wahwahnetworksopenx832423706192/moatad.js#moatClientLevel1={advertiser.id}&moatClientLevel2={order.id}&moatClientLevel3={line.id}&moatClientLevel4={ad.id}&moatClientSlicer1={publisher.id}&moatClientSlicer2={adunit.id}\" type=\"text/javascript\"></script>"
+          },
+          "id": null,
+          "creative_id": "79aa16e5-12d7-461d-a89b-d6736e8a76ed",
+          "weight": null
+        }
+      },
+      "weighting_mode": "EQUAL",
+      "delivery_mode": "WEB",
+	  "fill_rate": 0.30,
+      "nominal_cpm": 5,
+      "actual_rcpm": 3,
+      "actual_ecpm": 4,
+	  "biddable": false,
+	  "bid_url":null,
+	  "guaranteed": false,
+	  "priority": 3
+    },
+    {
+      "id": "6ffa0980-3aec-42c9-8ea9-4f2799f453f1",
+      "ads": [
+        "52c6aee1-160e-4468-a797-9234f564b341"
+      ],
+      "ad_map": {
+        "52c6aee1-160e-4468-a797-9234f564b341": {
+          "creative": {
+            "id": null,
+            "creative_type": "HTML",
+            "tag_contents": "<script type='text/javascript'>\n<!--//<![CDATA[\n   document.MAX_ct0 ='';\n   var m3_u = (location.protocol=='https:'?'https://cas.criteo.com/delivery/ajs.php?':'http://cas.criteo.com/delivery/ajs.php?');\n   var m3_r = Math.floor(Math.random()*99999999999);\n   document.write (\"<scr\"+\"ipt type='text/javascript' src='\"+m3_u);\n   document.write (\"zoneid=186545\");document.write(\"&amp;nodis=1\");\n   document.write ('&amp;cb=' + m3_r);\n   if (document.MAX_used != ',') document.write (\"&amp;exclude=\" + document.MAX_used);\n   document.write (document.charset ? '&amp;charset='+document.charset : (document.characterSet ? '&amp;charset='+document.characterSet : ''));\n   document.write (\"&amp;loc=\" + escape(window.location));\n   if (document.referrer) document.write (\"&amp;referer=\" + escape(document.referrer));\n   if (document.context) document.write (\"&context=\" + escape(document.context));\n   if ((typeof(document.MAX_ct0) != 'undefined') && (document.MAX_ct0.substring(0,4) == 'http')) {\n       document.write (\"&amp;ct0=\" + escape(document.MAX_ct0));\n   }\n   if (document.mmm_fo) document.write (\"&amp;mmm_fo=1\");\n   document.write (\"'></scr\"+\"ipt>\");\n//]]>--></script>\n<noscript class=\"MOAT-wahwahnetworksopenx832423706192?moatClientLevel1={advertiser.id}&amp;moatClientLevel2={order.id}&amp;moatClientLevel3={line.id}&amp;moatClientLevel4={ad.id}&amp;moatClientSlicer1={publisher.id}&amp;moatClientSlicer2={adunit.id}\"></noscript>\n<script src=\"http://js.moatads.com/wahwahnetworksopenx832423706192/moatad.js#moatClientLevel1={advertiser.id}&moatClientLevel2={order.id}&moatClientLevel3={line.id}&moatClientLevel4={ad.id}&moatClientSlicer1={publisher.id}&moatClientSlicer2={adunit.id}\" type=\"text/javascript\"></script>"
+          },
+          "id": null,
+          "creative_id": "f523aaea-0bcc-498d-9161-aea23c6109a6",
+          "weight": null
+        }
+      },
+      "weighting_mode": "EQUAL",
+      "delivery_mode": "WEB",
+	  "fill_rate": 0.30,
+      "nominal_cpm": 5,
+      "actual_rcpm": 3,
+      "actual_ecpm": 4,
+	  "biddable": false,
+	  "bid_url":null,
+	  "guaranteed": false,
+	  "priority": 3
+    },
+    {
+      "id": "69ea5082-6b68-4242-8adc-6e56357f316d",
+      "ads": [
+        "3034f646-bb74-4d34-88d3-83802344124f"
+      ],
+      "ad_map": {
+        "3034f646-bb74-4d34-88d3-83802344124f": {
+          "creative": {
+            "id": null,
+            "creative_type": "HTML",
+            "tag_contents": "<script type='text/javascript'>\n<!--//<![CDATA[\n   document.MAX_ct0 ='';\n   var m3_u = (location.protocol=='https:'?'https://cas.criteo.com/delivery/ajs.php?':'http://cas.criteo.com/delivery/ajs.php?');\n   var m3_r = Math.floor(Math.random()*99999999999);\n   document.write (\"<scr\"+\"ipt type='text/javascript' src='\"+m3_u);\n   document.write (\"zoneid=186550\");document.write(\"&amp;nodis=1\");\n   document.write ('&amp;cb=' + m3_r);\n   if (document.MAX_used != ',') document.write (\"&amp;exclude=\" + document.MAX_used);\n   document.write (document.charset ? '&amp;charset='+document.charset : (document.characterSet ? '&amp;charset='+document.characterSet : ''));\n   document.write (\"&amp;loc=\" + escape(window.location));\n   if (document.referrer) document.write (\"&amp;referer=\" + escape(document.referrer));\n   if (document.context) document.write (\"&context=\" + escape(document.context));\n   if ((typeof(document.MAX_ct0) != 'undefined') && (document.MAX_ct0.substring(0,4) == 'http')) {\n       document.write (\"&amp;ct0=\" + escape(document.MAX_ct0));\n   }\n   if (document.mmm_fo) document.write (\"&amp;mmm_fo=1\");\n   document.write (\"'></scr\"+\"ipt>\");\n//]]>--></script>\n<noscript class=\"MOAT-wahwahnetworksopenx832423706192?moatClientLevel1={advertiser.id}&amp;moatClientLevel2={order.id}&amp;moatClientLevel3={line.id}&amp;moatClientLevel4={ad.id}&amp;moatClientSlicer1={publisher.id}&amp;moatClientSlicer2={adunit.id}\"></noscript>\n<script src=\"http://js.moatads.com/wahwahnetworksopenx832423706192/moatad.js#moatClientLevel1={advertiser.id}&moatClientLevel2={order.id}&moatClientLevel3={line.id}&moatClientLevel4={ad.id}&moatClientSlicer1={publisher.id}&moatClientSlicer2={adunit.id}\" type=\"text/javascript\"></script>"
+          },
+          "id": null,
+          "creative_id": "98c7237c-8d8d-42b7-9f62-88bf29e5ebea",
+          "weight": null
+        }
+      },
+      "weighting_mode": "EQUAL",
+      "delivery_mode": "WEB",
+	  "fill_rate": 0.30,
+      "nominal_cpm": 5,
+      "actual_rcpm": 3,
+      "actual_ecpm": 4,
+	  "biddable": false,
+	  "bid_url":null,
+	  "guaranteed": false,
+	  "priority": 3
+    },
+    {
+      "id": "114f2600-2b97-48b1-a9f3-6c70845c1a5c",
+      "ads": [
+        "33bf8124-ac1d-4799-a976-4a8f638a1e16"
+      ],
+      "ad_map": {
+        "33bf8124-ac1d-4799-a976-4a8f638a1e16": {
+          "creative": {
+            "id": null,
+            "creative_type": "HTML",
+            "tag_contents": "<script type='text/javascript'>\n<!--//<![CDATA[\n   document.MAX_ct0 ='';\n   var m3_u = (location.protocol=='https:'?'https://cas.criteo.com/delivery/ajs.php?':'http://cas.criteo.com/delivery/ajs.php?');\n   var m3_r = Math.floor(Math.random()*99999999999);\n   document.write (\"<scr\"+\"ipt type='text/javascript' src='\"+m3_u);\n   document.write (\"zoneid=186532\");document.write(\"&amp;nodis=1\");\n   document.write ('&amp;cb=' + m3_r);\n   if (document.MAX_used != ',') document.write (\"&amp;exclude=\" + document.MAX_used);\n   document.write (document.charset ? '&amp;charset='+document.charset : (document.characterSet ? '&amp;charset='+document.characterSet : ''));\n   document.write (\"&amp;loc=\" + escape(window.location));\n   if (document.referrer) document.write (\"&amp;referer=\" + escape(document.referrer));\n   if (document.context) document.write (\"&context=\" + escape(document.context));\n   if ((typeof(document.MAX_ct0) != 'undefined') && (document.MAX_ct0.substring(0,4) == 'http')) {\n       document.write (\"&amp;ct0=\" + escape(document.MAX_ct0));\n   }\n   if (document.mmm_fo) document.write (\"&amp;mmm_fo=1\");\n   document.write (\"'></scr\"+\"ipt>\");\n//]]>--></script>\n<noscript class=\"MOAT-wahwahnetworksopenx832423706192?moatClientLevel1={advertiser.id}&amp;moatClientLevel2={order.id}&amp;moatClientLevel3={line.id}&amp;moatClientLevel4={ad.id}&amp;moatClientSlicer1={publisher.id}&amp;moatClientSlicer2={adunit.id}\"></noscript>\n<script src=\"http://js.moatads.com/wahwahnetworksopenx832423706192/moatad.js#moatClientLevel1={advertiser.id}&moatClientLevel2={order.id}&moatClientLevel3={line.id}&moatClientLevel4={ad.id}&moatClientSlicer1={publisher.id}&moatClientSlicer2={adunit.id}\" type=\"text/javascript\"></script>"
+          },
+          "id": null,
+          "creative_id": "297c2f53-9094-4e0b-8150-79e166e46f45",
+          "weight": null
+        }
+      },
+      "weighting_mode": "EQUAL",
+      "delivery_mode": "WEB",
+	  "fill_rate": 0.30,
+      "nominal_cpm": 5,
+      "actual_rcpm": 3,
+      "actual_ecpm": 4,
+	  "biddable": false,
+	  "bid_url":null,
+	  "guaranteed": false,
+	  "priority": 3
+    },
+    {
+      "id": "c9f46ba3-7b2e-45f1-b531-dee8f9a47e3e",
+      "ads": [
+        "852e7479-b477-40ad-a730-03cc250b1db8"
+      ],
+      "ad_map": {
+        "852e7479-b477-40ad-a730-03cc250b1db8": {
+          "creative": {
+            "id": null,
+            "creative_type": "HTML",
+            "tag_contents": "<script type='text/javascript'>\n<!--//<![CDATA[\n   document.MAX_ct0 ='';\n   var m3_u = (location.protocol=='https:'?'https://cas.criteo.com/delivery/ajs.php?':'http://cas.criteo.com/delivery/ajs.php?');\n   var m3_r = Math.floor(Math.random()*99999999999);\n   document.write (\"<scr\"+\"ipt type='text/javascript' src='\"+m3_u);\n   document.write (\"zoneid=186543\");document.write(\"&amp;nodis=1\");\n   document.write ('&amp;cb=' + m3_r);\n   if (document.MAX_used != ',') document.write (\"&amp;exclude=\" + document.MAX_used);\n   document.write (document.charset ? '&amp;charset='+document.charset : (document.characterSet ? '&amp;charset='+document.characterSet : ''));\n   document.write (\"&amp;loc=\" + escape(window.location));\n   if (document.referrer) document.write (\"&amp;referer=\" + escape(document.referrer));\n   if (document.context) document.write (\"&context=\" + escape(document.context));\n   if ((typeof(document.MAX_ct0) != 'undefined') && (document.MAX_ct0.substring(0,4) == 'http')) {\n       document.write (\"&amp;ct0=\" + escape(document.MAX_ct0));\n   }\n   if (document.mmm_fo) document.write (\"&amp;mmm_fo=1\");\n   document.write (\"'></scr\"+\"ipt>\");\n//]]>--></script>\n<noscript class=\"MOAT-wahwahnetworksopenx832423706192?moatClientLevel1={advertiser.id}&amp;moatClientLevel2={order.id}&amp;moatClientLevel3={line.id}&amp;moatClientLevel4={ad.id}&amp;moatClientSlicer1={publisher.id}&amp;moatClientSlicer2={adunit.id}\"></noscript>\n<script src=\"http://js.moatads.com/wahwahnetworksopenx832423706192/moatad.js#moatClientLevel1={advertiser.id}&moatClientLevel2={order.id}&moatClientLevel3={line.id}&moatClientLevel4={ad.id}&moatClientSlicer1={publisher.id}&moatClientSlicer2={adunit.id}\" type=\"text/javascript\"></script>"
+          },
+          "id": null,
+          "creative_id": "106c905f-4700-4b56-b0f0-090ad3619368",
+          "weight": null
+        }
+      },
+      "weighting_mode": "EQUAL",
+      "delivery_mode": "WEB",
+	  "fill_rate": 0.30,
+      "nominal_cpm": 5,
+      "actual_rcpm": 3,
+      "actual_ecpm": 4,
+	  "biddable": false,
+	  "bid_url":null,
+	  "guaranteed": false,
+	  "priority": 3
+    },
+    {
+      "id": "c2c8ff13-26c0-4038-83e7-c3b3e5d433d8",
+      "ads": [
+        "0174e917-729c-40c9-830b-0747c984e36a"
+      ],
+      "ad_map": {
+        "0174e917-729c-40c9-830b-0747c984e36a": {
+          "creative": {
+            "id": null,
+            "creative_type": "HTML",
+            "tag_contents": "<script type='text/javascript'>\n<!--//<![CDATA[\n   document.MAX_ct0 ='';\n   var m3_u = (location.protocol=='https:'?'https://cas.criteo.com/delivery/ajs.php?':'http://cas.criteo.com/delivery/ajs.php?');\n   var m3_r = Math.floor(Math.random()*99999999999);\n   document.write (\"<scr\"+\"ipt type='text/javascript' src='\"+m3_u);\n   document.write (\"zoneid=186532\");document.write(\"&amp;nodis=1\");\n   document.write ('&amp;cb=' + m3_r);\n   if (document.MAX_used != ',') document.write (\"&amp;exclude=\" + document.MAX_used);\n   document.write (document.charset ? '&amp;charset='+document.charset : (document.characterSet ? '&amp;charset='+document.characterSet : ''));\n   document.write (\"&amp;loc=\" + escape(window.location));\n   if (document.referrer) document.write (\"&amp;referer=\" + escape(document.referrer));\n   if (document.context) document.write (\"&context=\" + escape(document.context));\n   if ((typeof(document.MAX_ct0) != 'undefined') && (document.MAX_ct0.substring(0,4) == 'http')) {\n       document.write (\"&amp;ct0=\" + escape(document.MAX_ct0));\n   }\n   if (document.mmm_fo) document.write (\"&amp;mmm_fo=1\");\n   document.write (\"'></scr\"+\"ipt>\");\n//]]>--></script>\n<noscript class=\"MOAT-wahwahnetworksopenx832423706192?moatClientLevel1={advertiser.id}&amp;moatClientLevel2={order.id}&amp;moatClientLevel3={line.id}&amp;moatClientLevel4={ad.id}&amp;moatClientSlicer1={publisher.id}&amp;moatClientSlicer2={adunit.id}\"></noscript>\n<script src=\"http://js.moatads.com/wahwahnetworksopenx832423706192/moatad.js#moatClientLevel1={advertiser.id}&moatClientLevel2={order.id}&moatClientLevel3={line.id}&moatClientLevel4={ad.id}&moatClientSlicer1={publisher.id}&moatClientSlicer2={adunit.id}\" type=\"text/javascript\"></script>"
+          },
+          "id": null,
+          "creative_id": "297c2f53-9094-4e0b-8150-79e166e46f45",
+          "weight": null
+        }
+      },
+      "weighting_mode": "EQUAL",
+      "delivery_mode": "WEB",
+	  "fill_rate": 0.30,
+      "nominal_cpm": 5,
+      "actual_rcpm": 3,
+      "actual_ecpm": 4,
+	  "biddable": false,
+	  "bid_url":null,
+	  "guaranteed": false,
+	  "priority": 3
+    },
+    {
+      "id": "a8ef5c98-e827-462c-bfb8-5fe212549b8a",
+      "ads": [
+        "dbd17ea2-9834-44f7-860c-bcddf8049ecd"
+      ],
+      "ad_map": {
+        "dbd17ea2-9834-44f7-860c-bcddf8049ecd": {
+          "creative": {
+            "id": null,
+            "creative_type": "HTML",
+            "tag_contents": "<script type='text/javascript'>\n<!--//<![CDATA[\n   document.MAX_ct0 ='';\n   var m3_u = (location.protocol=='https:'?'https://cas.criteo.com/delivery/ajs.php?':'http://cas.criteo.com/delivery/ajs.php?');\n   var m3_r = Math.floor(Math.random()*99999999999);\n   document.write (\"<scr\"+\"ipt type='text/javascript' src='\"+m3_u);\n   document.write (\"zoneid=186533\");document.write(\"&amp;nodis=1\");\n   document.write ('&amp;cb=' + m3_r);\n   if (document.MAX_used != ',') document.write (\"&amp;exclude=\" + document.MAX_used);\n   document.write (document.charset ? '&amp;charset='+document.charset : (document.characterSet ? '&amp;charset='+document.characterSet : ''));\n   document.write (\"&amp;loc=\" + escape(window.location));\n   if (document.referrer) document.write (\"&amp;referer=\" + escape(document.referrer));\n   if (document.context) document.write (\"&context=\" + escape(document.context));\n   if ((typeof(document.MAX_ct0) != 'undefined') && (document.MAX_ct0.substring(0,4) == 'http')) {\n       document.write (\"&amp;ct0=\" + escape(document.MAX_ct0));\n   }\n   if (document.mmm_fo) document.write (\"&amp;mmm_fo=1\");\n   document.write (\"'></scr\"+\"ipt>\");\n//]]>--></script>\n<noscript class=\"MOAT-wahwahnetworksopenx832423706192?moatClientLevel1={advertiser.id}&amp;moatClientLevel2={order.id}&amp;moatClientLevel3={line.id}&amp;moatClientLevel4={ad.id}&amp;moatClientSlicer1={publisher.id}&amp;moatClientSlicer2={adunit.id}\"></noscript>\n<script src=\"http://js.moatads.com/wahwahnetworksopenx832423706192/moatad.js#moatClientLevel1={advertiser.id}&moatClientLevel2={order.id}&moatClientLevel3={line.id}&moatClientLevel4={ad.id}&moatClientSlicer1={publisher.id}&moatClientSlicer2={adunit.id}\" type=\"text/javascript\"></script>"
+          },
+          "id": null,
+          "creative_id": "8b843032-9c64-4a49-bfc2-b459c92d523a",
+          "weight": null
+        }
+      },
+      "weighting_mode": "EQUAL",
+      "delivery_mode": "WEB",
+	  "fill_rate": 0.30,
+      "nominal_cpm": 5,
+      "actual_rcpm": 3,
+      "actual_ecpm": 4,
+	  "biddable": false,
+	  "bid_url":null,
+	  "guaranteed": false,
+	  "priority": 3
+    },
+    {
+      "id": "42d7bea7-e9c9-4f20-9086-4400fae4f37c",
+      "ads": [
+        "52d8adf6-d0ff-4035-b306-4b699ecec5f1"
+      ],
+      "ad_map": {
+        "52d8adf6-d0ff-4035-b306-4b699ecec5f1": {
+          "creative": {
+            "id": null,
+            "creative_type": "HTML",
+            "tag_contents": "<script type='text/javascript'>\n<!--//<![CDATA[\n   document.MAX_ct0 ='';\n   var m3_u = (location.protocol=='https:'?'https://cas.criteo.com/delivery/ajs.php?':'http://cas.criteo.com/delivery/ajs.php?');\n   var m3_r = Math.floor(Math.random()*99999999999);\n   document.write (\"<scr\"+\"ipt type='text/javascript' src='\"+m3_u);\n   document.write (\"zoneid=186535\");document.write(\"&amp;nodis=1\");\n   document.write ('&amp;cb=' + m3_r);\n   if (document.MAX_used != ',') document.write (\"&amp;exclude=\" + document.MAX_used);\n   document.write (document.charset ? '&amp;charset='+document.charset : (document.characterSet ? '&amp;charset='+document.characterSet : ''));\n   document.write (\"&amp;loc=\" + escape(window.location));\n   if (document.referrer) document.write (\"&amp;referer=\" + escape(document.referrer));\n   if (document.context) document.write (\"&context=\" + escape(document.context));\n   if ((typeof(document.MAX_ct0) != 'undefined') && (document.MAX_ct0.substring(0,4) == 'http')) {\n       document.write (\"&amp;ct0=\" + escape(document.MAX_ct0));\n   }\n   if (document.mmm_fo) document.write (\"&amp;mmm_fo=1\");\n   document.write (\"'></scr\"+\"ipt>\");\n//]]>--></script>\n<noscript class=\"MOAT-wahwahnetworksopenx832423706192?moatClientLevel1={advertiser.id}&amp;moatClientLevel2={order.id}&amp;moatClientLevel3={line.id}&amp;moatClientLevel4={ad.id}&amp;moatClientSlicer1={publisher.id}&amp;moatClientSlicer2={adunit.id}\"></noscript>\n<script src=\"http://js.moatads.com/wahwahnetworksopenx832423706192/moatad.js#moatClientLevel1={advertiser.id}&moatClientLevel2={order.id}&moatClientLevel3={line.id}&moatClientLevel4={ad.id}&moatClientSlicer1={publisher.id}&moatClientSlicer2={adunit.id}\" type=\"text/javascript\"></script>"
+          },
+          "id": null,
+          "creative_id": "6a07bfb2-84f4-46cf-839b-064314b9c33c",
+          "weight": null
+        }
+      },
+      "weighting_mode": "EQUAL",
+      "delivery_mode": "WEB",
+	  "fill_rate": 0.30,
+      "nominal_cpm": 5,
+      "actual_rcpm": 3,
+      "actual_ecpm": 4,
+	  "biddable": false,
+	  "bid_url":null,
+	  "guaranteed": false,
+	  "priority": 3
+    },
+    {
+      "id": "63394ac1-6080-49cc-98ed-cbaf088378e5",
+      "ads": [
+        "9890149f-ae38-427b-8f38-9a861fb790f6"
+      ],
+      "ad_map": {
+        "9890149f-ae38-427b-8f38-9a861fb790f6": {
+          "creative": {
+            "id": null,
+            "creative_type": "VAST_XML",
+            "tag_contents": "http://ads.contextweb.com/TagPublish/getvideo.aspx?cp=560195&ct=463114&cwu=http%3A%2F%2Fjay.shao.org&cwr=&mrnd=1234&if=6&cf=Video&vpt=0&video=%7B%22pos%22%3A1%2C%22startdelay%22%3A0%2C%22minduration%22%3A0%2C%22maxduration%22%3A120%2C%22maxextended%22%3A30%2C%22minbitrate%22%3A0%2C%22maxbitrate%22%3A1500%2C%22api%22%3A%5B1%2C2%5D%2C%22protocols%22%3A%5B2%2C3%2C5%2C6%5D%2C%22mimes%22%3A%5B%22video%2Fmp4%22%2C%22application%2Fjavascript%22%2C%22video%2Fwebm%22%5D%2C%22linearity%22%3A1%2C%22boxingallowed%22%3A1%2C%22playbackmethod%22%3A%5B1%2C2%5D%2C%22delivery%22%3A%5B2%5D%2C%20%22w%22%3A640%2C%20%22h%22%3A480%7D&test=1"
+          },
+          "id": null,
+          "creative_id": "9377b198-448c-4caa-9a31-41eca4d94cb9",
+          "weight": null
+        }
+      },
+      "weighting_mode": "EQUAL",
+      "delivery_mode": "LINEAR_VIDEO",
+      "nominal_cpm": 0,
+      "actual_rcpm": 0,
+      "actual_ecpm": 0,
+	  "biddable": true,
+	  "bid_url":null,
+	  "guaranteed": false,
+	  "priority": 1
+    },
+    {
+      "id": "befdbdd1-f3d4-444d-b35b-78126e85b264",
+      "ads": [
+        "821875c0-9d28-41e9-8fc2-20ff16a5376b"
+      ],
+      "ad_map": {
+        "821875c0-9d28-41e9-8fc2-20ff16a5376b": {
+          "creative": {
+            "id": null,
+            "creative_type": "HTML",
+            "tag_contents": "<script src=\"http://tag.contextweb.com/TagPublish/getjs.aspx?action=VIEWAD&cwrun=200&cwadformat=300X250&cwpid=560195&cwwidth=300&cwheight=250&cwpnet=1&cwtagid=463126\"></script>"
+          },
+          "id": null,
+          "creative_id": "6fc1036e-5a56-4f3b-9550-5ff4d3afff00",
+          "weight": null
+        }
+      },
+      "weighting_mode": "EQUAL",
+      "delivery_mode": "WEB",
+	  "fill_rate": 0.30,
+      "nominal_cpm": 0,
+      "actual_rcpm": 0,
+      "actual_ecpm": 0,
+	  "biddable": true,
+	  "bid_url":null,
+	  "guaranteed": false,
+	  "priority": 1
+    }
+  ],
+  "ads": []
+}

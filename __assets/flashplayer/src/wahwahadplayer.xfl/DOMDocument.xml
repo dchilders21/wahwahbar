@@ -1,0 +1,116 @@
+<DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" gridColor="#C0C0C0" guidesColor="#00FF00" width="300" height="250" currentTimeline="1" xflVersion="2.5" creatorInfo="Adobe Flash Professional CC" platform="Windows" versionInfo="Saved by Adobe Flash Windows 14.1 build 96" majorVersion="14" minorVersion="1" buildNumber="96" gridSpacingX="2" gridSpacingY="2" snapAlignBorderSpacing="18" objectsSnapTo="false" timelineHeight="287" viewAngle3D="39.0828126108204" nextSceneIdentifier="115" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false" autoSaveHasPrompted="true" filetypeGUID="DD0DDBBF-5BEF-45B2-9F24-A3048D2A676F">
+     <symbols>
+          <Include href="bg.xml" loadImmediate="false" itemID="4820d2cd-0000001b" lastModified="1386006136"/>
+          <Include href="boundary.xml" loadImmediate="false" itemID="529cd759-0000011c" lastModified="1386010457"/>
+          <Include href="child_mc.xml" loadImmediate="false" itemID="47d71bf0-0000008e" lastModified="1386007906"/>
+          <Include href="ewAdLayer_mc.xml" loadImmediate="false" itemID="4ae5725b-00000042" lastModified="1386010347"/>
+     </symbols>
+     <timelines>
+          <DOMTimeline name="Scene 1">
+               <layers>
+                    <DOMLayer name="actions" color="#FF4F4F" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="redDOT" color="#808080" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="controls_mc" color="#808080" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="child_mc" color="#FFFF4F" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="child_mc" name="child_mc">
+                                             <matrix>
+                                                  <Matrix d="1.00015258789063" tx="38.8" ty="18"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="ewAdLayer_mc" color="#FF4FFF" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="ewAdLayer_mc" name="ewAdLayer_mc">
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="bg_clip" color="#4FFFFF" current="true" isSelected="true" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="boundary" name="boundaryClip" centerPoint3DX="150" centerPoint3DY="109">
+                                             <matrix>
+                                                  <Matrix a="1.00334167480469" ty="25"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="149.5" y="84"/>
+                                             </transformationPoint>
+                                             <color>
+                                                  <Color alphaMultiplier="0"/>
+                                             </color>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="bg_mc" color="#4F80FF" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+               </layers>
+          </DOMTimeline>
+     </timelines>
+     <persistentData>
+          <PD n="TestMovieChecked" v="FlashPro"/>
+     </persistentData>
+     <PrinterSettings/>
+     <publishHistory>
+          <PublishItem publishSize="79547" publishTime="1413000384"/>
+          <PublishItem publishSize="79604" publishTime="1413000347"/>
+          <PublishItem publishSize="79579" publishTime="1413000320"/>
+          <PublishItem publishSize="79582" publishTime="1413000288"/>
+          <PublishItem publishSize="199" publishTime="1413000218"/>
+          <PublishItem publishSize="199" publishTime="1413000197"/>
+          <PublishItem publishSize="80411" publishTime="1412999916"/>
+          <PublishItem publishSize="80387" publishTime="1412999902"/>
+          <PublishItem publishSize="80379" publishTime="1412999666"/>
+          <PublishItem publishSize="80363" publishTime="1412999641"/>
+          <PublishItem publishSize="80378" publishTime="1412999586"/>
+          <PublishItem publishSize="80423" publishTime="1412999454"/>
+          <PublishItem publishSize="954" publishTime="1412999414"/>
+          <PublishItem publishSize="954" publishTime="1412999347"/>
+          <PublishItem publishSize="80384" publishTime="1412999213"/>
+          <PublishItem publishSize="60956" publishTime="1412999196"/>
+          <PublishItem publishSize="80351" publishTime="1412999090"/>
+          <PublishItem publishSize="954" publishTime="1412999024"/>
+          <PublishItem publishSize="954" publishTime="1412999003"/>
+          <PublishItem publishSize="954" publishTime="1412998948"/>
+     </publishHistory>
+</DOMDocument>

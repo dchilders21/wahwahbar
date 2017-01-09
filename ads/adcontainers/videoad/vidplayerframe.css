@@ -1,0 +1,201 @@
+body {
+	overflow: hidden; /* IE when some ad providers use External Interface to add to page, scrollbars appear */
+	margin: 0px 0px 0px 0px; /* background-color: #202228; Don't set bg color until ad load successful */ 
+	background-color: transparent; 
+}
+
+.vjs-control-bar {
+	visibility: hidden !important;
+
+}
+
+.vjs-caption-settings 	{
+	visibility: hidden !important;
+
+}
+
+.vjs-big-play-button {
+	visibility: hidden !important;
+
+}
+
+.vjs-loading-spinner {
+	visibility: hidden !important;
+
+}
+
+.vjs-text-track-display {
+	visibility: hidden !important;
+
+}
+
+.vjs-error-display {
+	visibility: hidden !important;
+
+}
+
+.vjs-poster {
+	visibility: hidden !important;
+
+}
+
+#vidPlayback{
+	position: fixed;
+	z-index: -1;
+	bottom: 20px;
+	background-color: transparent;
+	
+	min-width: 10px;
+	
+	height: 10px;
+	
+  /* IE 8 */
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=1)";
+
+  /* IE 5-7 */
+  filter: alpha(opacity=1);
+
+  /* Netscape */
+  -moz-opacity: 0.01;
+
+  /* Safari 1.x */
+  -khtml-opacity: 0.01;
+
+  /* Good browsers */
+  opacity: 0.01;
+}
+
+#vidPlayback.show{
+	position: fixed;
+	z-index: -1;
+	top: 0px;
+	background-color: transparent;
+	
+  /* IE 8 */
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+
+  /* IE 5-7 */
+  filter: alpha(opacity=100);
+
+  /* Netscape */
+  -moz-opacity: 1;
+
+  /* Safari 1.x */
+  -khtml-opacity: 1;
+
+  /* Good browsers */
+  opacity: 1;
+}
+
+
+#videoControls {
+	display: none;
+	position: fixed;
+	width: 480px;
+	height: 34px;
+	bottom: 0px;
+	visibility: hidden;
+}
+
+#play_toggle {
+	display: inline-block;
+	float: right;
+	width: 36px;
+	height: 34px;
+}
+
+#audio_toggle {
+	display: inline-block;
+	float: right;
+	width: 36px;
+	height: 34px;
+}
+
+#countdown {
+	color: #fff;
+	font-size: 11px;
+	width: 200px;
+	float: left;
+	margin-left: 8px;
+	margin-top: 8px;
+	font-family: Arial, sans-serif;
+	-webkit-font-smoothing: antialiased;
+  	-moz-osx-font-smoothing: grayscale;
+}
+
+#replay_video {
+	color: white;
+	float: right;
+	position: fixed;
+	left: 48%;
+	top: 55%;
+	margin-top: -55px;
+	margin-left: -75px;
+	opacity: 0;
+	visibility: hidden;
+	z-index: 2147483646;
+	-webkit-transition: opacity 0.5s;
+	-moz-transition: opacity 0.5s;
+	-ms-transition: opacity 0.5s;
+	-o-transition: opacity 0.5s;
+	transition: opacity 0.5s;
+}
+
+#replay_video.show {
+	visibility: visible;
+	opacity: .7;
+}
+
+#replay_video.over {
+	visibility: visible;
+	opacity: 1;
+}
+
+
+#replay_video img {
+	margin-left: 45px;
+}
+
+#replay_video p {
+	margin-left: 42px;
+	font-family: Arial, sans-serif;
+	-webkit-font-smoothing: antialiased;
+  	-moz-osx-font-smoothing: grayscale;
+}
+
+#close {
+	position: fixed;
+	width: 29px;
+	height: 29px;
+	right: 0px;
+	top: 0px;
+	cursor: pointer;
+
+	background:url('./images/close.png');
+
+	opacity: 0;
+	visibility: hidden;
+	
+	z-index: 2147483647;
+
+	-webkit-transition: opacity 0.5s;
+	-moz-transition: opacity 0.5s;
+	-ms-transition: opacity 0.5s;
+	-o-transition: opacity 0.5s;
+	transition: opacity 0.5s;
+
+	-webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+#close:hover {
+	background:url('./images/close_over.png');
+    transform: scale(1.2);
+}
+
+#close.show {
+	visibility: visible;
+	opacity: 1;
+}

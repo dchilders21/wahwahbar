@@ -1,0 +1,89 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Reporting QA</title>
+<style type="text/css" media="screen">
+body,html { width: 100%; height: 100%; margin: 0; padding: 0; font-family:Verdana, Arial, sans-serif; font-size:12px; }
+table { width: 100%; height: 100%; }
+#closeB { cursor: pointer; position: absolute; left: -10px; top: -10px; }
+#FilterPopup { position: absolute; width:309px; left: 119px; top: 113px; background-color: #ebebeb; border: 1px solid #000; padding-left: 7px; }
+body,html { width:100%; height: 100%; margin:0px; padding:0px; font-family:verdana, arial, sans-serif; font-size: 12px; }
+</style>
+</head>
+<body>
+<div style="width:600px; height:auto; position:relative; margin:auto">
+<div id="FilterPopup" style="display:none; height:auto; width:480px; position:absolute; top:100px; left:60px; font-size:11px; z-index:50000">
+<div id="closeB"><input class="closeB" name="closeB" src="Reporting%20QA_files/close.png" title="Close" onclick="doFilterPop('none')" type="image"></div>
+<center><h2>Filter Options</h2></center>
+<div id="filtContent" style="text-align:left; font-size:11px; margin-bottom:8px">
+<form id="frmFilter" name="frmFilter" action="javascript:void(0)">
+<input id="cb_info" type="checkbox">&nbsp;Info&nbsp;<br>
+<input id="cb_time_on" type="checkbox">&nbsp;Time on Page&nbsp;<br>
+<input id="cb_panel" type="checkbox">&nbsp;Panel&nbsp;<br>
+<input id="cb_event" type="checkbox">&nbsp;Events&nbsp;<br>
+<input id="cb_interaction" type="checkbox">&nbsp;Interaction&nbsp;<br>
+<input id="cb_video" type="checkbox">&nbsp;Video&nbsp;<br>
+<input id="cb_ct" type="checkbox">&nbsp;Clickthrough&nbsp;<br>
+<input style="margin-top:4px" size="25" id="cb_other" type="text">&nbsp;Other (separate with pipe | symbol)<br>&nbsp;<br>
+<input id="cb_color" checked="checked" type="checkbox">&nbsp;Use Color-Coded Output&nbsp;<br>
+<input style="margin-top:6px" value="&nbsp;FILTER&nbsp;" onclick="getFilterData(1)" type="submit">&nbsp;<input style="margin-top:6px" value="&nbsp;CLEAR FILTER / RESET&nbsp;" onclick="getFilterData(0)" type="reset">
+</form>
+</div>
+<br>&nbsp;<br>
+</div>
+<div>
+<table>
+<tbody><tr>
+<td id="container" align="center" valign="top">
+<div style="text-align: center; font-weight: bold;">Reporting QA</div>
+<div>Open an ad and watch here as you interact to make sure that every event and action is being properly tracked.<br><br>
+<span style="text-align:center">»&nbsp;<a title="Filter Panel Results (beta)" href="javascript:doFilterPop('block')">Use Filter</a>&nbsp;&nbsp;</span>
+</div>
+<br>
+<script type="text/javascript" language="Javascript">
+function parseParam(name){
+	try{ var query=window.location.search; var pos=query.indexOf(name+"="); var pos2=0; if (pos!=-1){ pos=pos+name.length+1; pos2=query.indexOf("&", pos); if (pos2!=-1){ return query.substring(pos, pos2); } else { return query.substring(pos); }} else { return null; }
+	} catch(e){ return null; }
+}
+if (parseParam("common")==null) var ewCommon=true; else var ewCommon=(parseParam("common"));
+function ew_qaInfo(str){
+if(ew_isIe) recSwf=document.getElementById("receivingObj"); else recSwf=document.getElementById("receivingEmbed");
+if(recSwf) try{ recSwf.ew_sendToPanel(str); } catch(e){}
+}
+var useFilterSwf=true, doFilter=false, qstring="", useColor=true, frmvals=[];
+function doFilterPop(style){ document.getElementById("FilterPopup").style.display=style; }
+function getFilterData(n){
+var frm=document.getElementById("frmFilter");
+if(frm){ frmvals=[];
+if(frm.cb_info.checked) frmvals.push('Info');
+if(frm.cb_time_on.checked) frmvals.push('Time on Page');
+if(frm.cb_panel.checked) frmvals.push('Panel');
+if(frm.cb_event.checked) frmvals.push('Event');
+if(frm.cb_interaction.checked) frmvals.push('Interaction');
+if(frm.cb_video.checked) frmvals.push('Video');
+if(frm.cb_ct.checked) frmvals.push('Clickthru');
+useColor=(frm.cb_color.checked);
+if(frm.cb_other.value!='') frmvals.push(frm.cb_other.value);
+if(frmvals.length>0){ doFilter=true; qstring=frmvals.join("|"); }
+if(!n){ qstring=""; doFilter=false; }
+setFilter(qstring,doFilter,useColor);
+}
+doFilterPop('none');
+}
+function ew_QAReceivingPanelLoaded(){}
+var ew_receivingWidth=600, ewCommon=true, ew_receivingHeight=600, ew_qaReportUUID="common";
+
+var qaPath="http://test.wahwahnetworks.com/shared/QA_Reporting/Reporting%20QA_files/";
+</script>
+<script type="text/javascript" language="Javascript" src="Reporting%20QA_files/writeObject.js"></script>
+
+<noscript>
+<p>Javascript is disabled. You'll need enable javascript to view this page.</p>
+<br />
+</noscript>
+</td>
+</tr>
+</tbody></table>
+</div></div>
+
+</body></html>

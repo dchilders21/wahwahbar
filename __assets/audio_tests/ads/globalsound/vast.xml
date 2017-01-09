@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VAST xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="vast_2.0.1-creativeView.xsd"
+ version="2.0">
+
+  <Ad id="linear ad">
+    <InLine>
+      <AdSystem>2.0</AdSystem>
+      <AdTitle>VPAID Example</AdTitle>
+   <!--   <Impression><![CDATA[http://impression_url_goes_here]]></Impression> -->
+      <Creatives>
+        <Creative>
+          <Linear>
+            <Duration>00:04:00</Duration>
+            <MediaFiles>
+              <MediaFile apiFramework="VPAID" width="400" height="225" >
+                <![CDATA[http://test.wahwahnetworks.com/brian/hackmyaudio073015/ads/globalsound/Example.swf]]>
+              </MediaFile>
+            </MediaFiles>
+	<AdParameters><![CDATA[duration=320;]]></AdParameters>
+          </Linear>
+        </Creative>
+      </Creatives>
+    </InLine>
+  </Ad>
+</VAST>

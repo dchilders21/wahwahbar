@@ -1,0 +1,36 @@
+{
+  "line_items": [
+  {
+      "id": "pulsepointtest",
+      "ads": [
+        "pulsepointtest1"
+      ],
+      "ad_map": {
+        "pulsepointtest1": {
+          "creative": {
+            "id": null,
+            "creative_type": "VAST_XML",
+			"vendor": "PULSEPOINT",
+            "tag_contents": "http://ads.contextweb.com/TagPublish/getvideo.aspx?cp=560195&ct=463114&cwu=${PAGEURL_ENC}&cwr=${REFERRER_ENC}&mrnd=[timestamp]&if=6&cf=Video&vpt=0&video=${OPEN_RTB_JSON_ENC}&test=1",
+			"width": null,
+			"height": null
+          },
+          "id": null,
+          "creative_id": "pulsepointtest1_creative",
+          "weight": null
+        }
+      },
+      "weighting_mode": "EQUAL",
+      "delivery_mode": null,
+	  "fill_rate": 0.30,
+      "nominal_cpm": 0,
+      "actual_rcpm": 0,
+      "actual_ecpm": 0,
+	  "biddable": true,
+	  "bid_url":null,
+	  "guaranteed": false,
+	  "priority": 1
+    }
+  ],
+  "ads": []
+}

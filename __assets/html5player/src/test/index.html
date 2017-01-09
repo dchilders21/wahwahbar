@@ -1,0 +1,43 @@
+<html>
+  <head>
+    <title>Vast-Vmap Test</title>
+  </head>
+  <body>
+  <form action="./index.html" method="GET">
+  TEST URL: 
+
+  <input type="text" name="xmlTag" style="width: 40em;"><br>
+  <input type="submit">
+  
+</form >
+<table>
+<tr>
+<td valign="top">
+<div id="vid" style="position:relative; top: 0px; left: 0px; z-index: 1000000">
+<video id="content_video" class="video-js vjs-default-skin" preload="auto" width="400"
+        height="225" style="background-color: transparent">
+      <source src="about:blank"
+          type="video/mp4" ></source>
+    </video>
+</div>
+</td>
+<td>
+	
+	<div id="outputdiv" style="border: 1px dotted green; visibility: hidden;"></div>
+	
+</td>
+</tr>
+</table>
+		<script src="./vkbeautify.0.99.00.beta.js"></script> <!-- Debug only -->
+    <script src="../vast-vmap/vast-vmap.js"></script>
+	<script src="./vastpreparse.js"></script>
+	<script src="./wwserialize.js"></script>
+
+	
+    <script src="../videojs/video.js"></script>
+    <script src="//imasdk.googleapis.com/js/sdkloader/ima3.js"></script>
+    <script src="../videojs-ads/videojs.ads.js"></script>
+    <script src="../ima-plugin/videojs.ima.js"></script>
+
+  </body>
+</html>

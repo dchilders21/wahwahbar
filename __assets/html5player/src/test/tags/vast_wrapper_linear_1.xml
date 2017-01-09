@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VAST version="2.0">
+  <Ad id="602833">
+  <Wrapper>
+    <AdSystem>Acudeo Compatible (wrapper)</AdSystem>
+    <VASTAdTagURI>http://test.wahwahnetworks.com/brian/vast-test/vast_inline_linear.xml</VASTAdTagURI>
+    <Error>http://myErrorURL/wrapper/error</Error>
+    <Impression id="wrapperImpression">http://test.wahwahnetworks.com/wrapper/impression</Impression>
+	
+    <Impression>http://test.wahwahnetworks.com/wrapper/impression2</Impression>
+	<Creatives>
+		<Creative AdID="602833">
+			<Linear>
+				<TrackingEvents>
+					<Tracking event="creativeView">http://test.wahwahnetworks.com/wrapper/creativeView</Tracking>
+					<Tracking event="start">http://test.wahwahnetworks.com/wrapper/start</Tracking>
+					<Tracking event="midpoint">http://test.wahwahnetworks.com/wrapper/midpoint</Tracking>
+					<Tracking event="firstQuartile">http://test.wahwahnetworks.com/wrapper/firstQuartile</Tracking>
+					<Tracking event="thirdQuartile">http://test.wahwahnetworks.com/wrapper/thirdQuartile</Tracking>
+					<Tracking event="complete">http://test.wahwahnetworks.com/wrapper/complete</Tracking>
+					<Tracking event="mute">http://test.wahwahnetworks.com/wrapper/mute</Tracking>
+					<Tracking event="unmute">http://test.wahwahnetworks.com/wrapper/unmute</Tracking>
+					<Tracking event="pause">http://test.wahwahnetworks.com/wrapper/pause</Tracking>
+					<Tracking event="resume">http://test.wahwahnetworks.com/wrapper/resume</Tracking>
+					<Tracking event="fullscreen">http://test.wahwahnetworks.com/wrapper/fullscreen</Tracking>	
+				</TrackingEvents>
+			</Linear>
+		</Creative>
+		<Creative>
+			<Linear>
+				<VideoClicks>
+					<ClickTracking>http://test.wahwahnetworks.com/wrapper/click</ClickTracking>
+				</VideoClicks>
+			</Linear>
+		</Creative>
+		<Creative AdID="602833-NonLinearTracking">
+			<NonLinearAds>
+				<TrackingEvents>
+				</TrackingEvents>
+			</NonLinearAds>
+		</Creative>
+	</Creatives>
+  </Wrapper>
+  </Ad>
+</VAST>

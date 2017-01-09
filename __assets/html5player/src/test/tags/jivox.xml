@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VAST version="2.0">
+<Ad id="52447">
+<InLine><AdSystem>Jivox</AdSystem><AdTitle><![CDATA[Schwab_43_169_InvestingChannel_Comp_added]]></AdTitle><Description>JivoxAd</Description><Impression id="Impression"><![CDATA[http://evs.jivox.com/jivox/serverAPIs/vastSaveImpression.php?campaignId=39610&siteId=150d52c71d8b6a&eventType=41&adUnitType=7&r=1329203568&es_skipTp=1&jvxSessionId=1443565206.2667]]>
+</Impression>
+<Creatives>
+<Creative id="video" AdID="52447"><Linear>
+<Duration>00:00:17</Duration><MediaFiles>
+<MediaFile delivery="progressive" bitrate="466" width="300" height="224" type="application/x-shockwave-flash" apiFramework="VPAID"><![CDATA[http://playercdn.jivox.com/1438066927/VAST/jvxAdPlugin.swf?serverSwfURL=http%3A%2F%2Fplayercdn.jivox.com%2F1438066927&serverURL=http://as.jivox.com&siteId=150d52c71d8b6a&campaignId=39610&cv=1&volume=1&jvxSessionId=1443565206.2667&ts_skipImpression=1&adUnitType=7]]></MediaFile></MediaFiles></Linear></Creative>
+<Creative AdID="39610-Companion">
+<CompanionAds>
+<Companion id="companionBanner" width="300" height="250">
+<StaticResource creativeType="image/jpeg"><![CDATA[http://cdn.jivox.com/39610/1/20921-51468-pro-50e750538f5b5.jpg]]></StaticResource>
+<TrackingEvents>
+<Tracking event="creativeView"><![CDATA[http://evs.jivox.com/jivox/serverAPIs/vastSaveImpression.php?campaignId=39610&siteId=150d52c71d8b6a&eventType=7&adUnitType=7&r=1770452543&es_skipTp=1&jvxSessionId=1443565206.2667]]></Tracking>
+</TrackingEvents>
+<CompanionClickThrough><![CDATA[http://evs.jivox.com/jivox/serverAPIs/vastSaveImpression.php?campaignId=39610&siteId=150d52c71d8b6a&eventType=43&adUnitType=7&r=1770452543&jvxSessionId=1443565206.2667]]></CompanionClickThrough>
+</Companion>
+</CompanionAds>
+</Creative></Creatives></InLine></Ad></VAST>

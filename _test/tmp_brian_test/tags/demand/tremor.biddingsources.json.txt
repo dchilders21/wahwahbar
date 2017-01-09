@@ -1,0 +1,36 @@
+{
+  "line_items": [
+  {
+      "id": "tremortest",
+      "ads": [
+        "tremortest1"
+      ],
+      "ad_map": {
+        "tremortest1": {
+          "creative": {
+            "id": null,
+            "creative_type": "VAST_XML",
+			"vendor": "TREMOR_MEDIA",
+            "tag_contents": "http://jyptv.ads.tremorhub.com/ad/tag?adCode=tq1tf&playerWidth=400&playerHeight=225&playerPosition=1&mediaId=111&mediaTitle=Toolbar&mediaDesc=Radio&mediaUrl={REFERRER}&context=3&livestream=0&srcPageUrl=${PAGE_URL}",
+			"width": null,
+			"height": null
+          },
+          "id": null,
+          "creative_id": "tremortest1_creative",
+          "weight": null
+        }
+      },
+      "weighting_mode": "EQUAL",
+      "delivery_mode": null,
+	  "fill_rate": 0.30,
+      "nominal_cpm": 0,
+      "actual_rcpm": 0,
+      "actual_ecpm": 0,
+	  "biddable": true,
+	  "bid_url":null,
+	  "guaranteed": false,
+	  "priority": 1
+    }
+  ],
+  "ads": []
+}

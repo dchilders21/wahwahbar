@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VAST version="2.0">
+  <Ad id="test_wrapper">
+  <Wrapper>
+    <AdSystem>rp test wrapper</AdSystem>
+    <VASTAdTagURI><![CDATA[http://ads.contextweb.com/TagPublish/getvideo.aspx?cp=560195&ct=463114&cwu=http%3A%2F%2Fjay.shao.org&cwr=&mrnd=1234&if=6&cf=Video&vpt=0&video=%7B%22pos%22%3A1%2C%22startdelay%22%3A0%2C%22minduration%22%3A0%2C%22maxduration%22%3A120%2C%22maxextended%22%3A30%2C%22minbitrate%22%3A0%2C%22maxbitrate%22%3A1500%2C%22api%22%3A%5B1%2C2%5D%2C%22protocols%22%3A%5B2%2C3%2C5%2C6%5D%2C%22mimes%22%3A%5B%22video%2Fmp4%22%2C%22application%2Fjavascript%22%2C%22video%2Fwebm%22%5D%2C%22linearity%22%3A1%2C%22boxingallowed%22%3A1%2C%22playbackmethod%22%3A%5B1%2C2%5D%2C%22delivery%22%3A%5B2%5D%2C%20%22w%22%3A640%2C%20%22h%22%3A480%7D&test=1]]></VASTAdTagURI>
+    <Impression><![CDATA[http://myTrackingURL/wrapper/impression]]></Impression>
+	<Creatives>
+
+		<Creative AdID="test_wrapper">
+			<Linear>
+				<TrackingEvents>
+				
+					<Tracking event="start">
+					<URL id="adSimulator0">
+							  <![CDATA[http://www.secondaryadserver.com/ad/start]]>
+							</URL>
+				</Tracking>
+				<Tracking event="midpoint">
+					<URL id="adSimulator0">
+							  <![CDATA[http://www.secondaryadserver.com/ad/midpoint]]>
+							</URL>
+				</Tracking>
+				<Tracking event="complete">
+							<URL id="adSimulator0">
+							  <![CDATA[http://www.secondaryadserver.com/ad/complete]]>
+							</URL>
+				</Tracking>
+				</TrackingEvents>
+			</Linear>
+		</Creative>
+	</Creatives>
+  </Wrapper>
+  </Ad>
+
+</VAST>

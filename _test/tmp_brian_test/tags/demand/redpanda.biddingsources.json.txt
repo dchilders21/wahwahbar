@@ -1,0 +1,36 @@
+{
+  "line_items": [
+    {
+      "id": "0b13a3f7-08d0-47a2-a6bd-fa0ba20ad581",
+      "ads": [
+        "b7eecafe-ba0e-426e-8987-8945b074df70"
+      ],
+      "ad_map": {
+        "b7eecafe-ba0e-426e-8987-8945b074df70": {
+          "creative": {
+			"width": 300,
+			"height": 250,
+            "id": null,
+            "creative_type": "HTML",
+			"vendor": "RED_PANDA_MARKETPLACE",
+            "tag_contents": "<script src=\"http://test.wahwahnetworks.com/brian/tb4/tags/wahwahobject_marketplace.js\" type=\"text/javascript\"></script>"
+          },
+          "id": null,
+          "creative_id": "669700ff-32f5-4ebe-bc67-44ce16c08845",
+          "weight": null
+        }
+      },
+      "weighting_mode": "EQUAL",
+      "delivery_mode": "WEB",
+	  "fill_rate": 0.30,
+      "nominal_cpm": 100000,
+      "actual_rcpm": 500,
+      "actual_ecpm": 500,
+	  "biddable": false,
+	  "bid_url":null,
+	  "guaranteed": false,
+	  "priority": 1
+    }
+  ],
+  "ads": []
+}

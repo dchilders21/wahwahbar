@@ -1,0 +1,13 @@
+language: node_js
+node_js:
+  - 'iojs-v1'
+  - '0.12'
+  - '0.10'
+notifications:
+  hipchat:
+    rooms:
+      secure: LFKhoG+dqdOWwAc6jAo7mY8Jz9/QOkwzJ96mruLHAbsBmIPJcgdiofd6UhZtEYQm8YbdgwDFV3GxsVd74euEXMT8Z60VEufH0LS3fqAO1DeyIteeewhWoD6WuGGRmFmwD3jOJyTJf0ZAnzfaTi7OjjTX25lwB/4cWMtSJMwHQ7I=
+  irc:
+    channels:
+      - "chat.freenode.net#videojs"
+    use_notice: true

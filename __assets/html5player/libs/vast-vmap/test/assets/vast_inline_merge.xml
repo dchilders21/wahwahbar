@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VAST version="2.0">
+  <Ad id="602833">
+  <InLine>
+    <AdTitle>VAST 2.0 Instream Test 1</AdTitle>
+    <Description>VAST 2.0 Instream Test 1</Description>
+  <Creatives>
+    <Creative AdID="602833-Companion">
+      <CompanionAds>
+        <Companion width="456" height="123" id="dontmerge-1">
+          <StaticResource creativeType="image/jpeg">static-dontmerge-1.jpg</StaticResource>
+          <CompanionClickThrough>http://companion-dontmerge-1.inline.test.com</CompanionClickThrough>
+        </Companion>
+        <Companion width="200" height="200">
+          <IFrameResource>/inline-size</IFrameResource>
+          <CompanionClickThrough>http://companion-size.inline.test.com</CompanionClickThrough>
+        </Companion>
+        <Companion id="merge">
+          <IFrameResource>/inline-id</IFrameResource>
+          <StaticResource creativeType="image/gif">static-inline.gif</StaticResource>
+          <StaticResource creativeType="image/png">static-inline.png</StaticResource>
+          <CompanionClickThrough>http://companion-id.inline.test.com</CompanionClickThrough>
+        </Companion>
+      </CompanionAds>
+    </Creative>
+  </Creatives>
+  </InLine>
+  </Ad>
+</VAST>
